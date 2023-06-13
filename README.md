@@ -28,8 +28,7 @@ The following info is just for your reference.
 
 ## Note on carrying out IMSRG from files
 
-In `NuclearToolkit.jl` v $\geq$ 0.3.3, one can evaluate any evolved operators with a specific Magnus operator.  
-The main API is `hf_main` function in `src/hartreefock.jl` and it takes an optional argument `restart_from_files`.
+In `NuclearToolkit.jl` v $\geq$ 0.3.2, one can evaluate any evolved operators with a specific Magnus operator from files.The main API is `hf_main` function in `src/hartreefock.jl` and it takes an optional argument `restart_from_files`.
 See the sample script `sample_script_NuclearToolkit.jl` in this repository for more details.
 
 
