@@ -2,7 +2,10 @@ using NuclearToolkit
 using Glob
 using Printf
 function imsrg_emulator()
-    #make_chiEFTint(); exit()
+    # make chiral potentials
+    # make_chiEFTint(); exit()
+
+    # IMSRG part
     hw = 20
     dirsnt = "snts"
     for emax in [4]
