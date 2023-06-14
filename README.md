@@ -44,7 +44,7 @@ Pkg.add("NuclearToolkit")
 ```
 before running Julia scripts.
 ```bash
-julia -t 12 sample__script_NuclearToolkit.jl
+julia -t 12 sample_script_NuclearToolkit.jl
 ```
 
 
