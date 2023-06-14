@@ -1,0 +1,1742 @@
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax4.snt.bin
+size of dWS (jmax 9 lmax 40 e2max 8 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    1.11 MB   d6j_lj    0.28 MB
+  d9j_lsj    1.76 MB  dictHOB    0.44 MB
+target: O16 Ref. => Z=8 N=8 E:    -132.9506  = E1b    363.70  + E2b   -496.65   (    -55.16  -367.32   -74.18)
+EMP2    -23.70628 1b    -0.000 pp    -1.437 pn   -20.815 nn    -1.454
+EMP3      0.37645 pp    -0.111 hh    -1.895 ph     2.383
+E_HF   -132.95058  E_MBPT(3) =    -156.2804  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -132.95057781  0.000000e+00  0.000000e+00  6.530166e-17  1.265550e+00         0         0
+     1    0.250  -142.51208790  1.632542e-17  3.163874e-01  1.773644e-02  9.453919e-01         8         0
+En(s=20.00) = -156.94744632862324
+En(s=22.00) = -156.94948568162005
+En(s=24.00) = -156.95118212126576
+En(s=26.00) = -156.95259728475224
+En(s=28.00) = -156.95378231609055
+En(s=30.00) = -156.95477877524618
+En(s=32.00) = -156.95562008965098
+En(s=34.00) = -156.9563330904769
+En(s=36.00) = -156.95693938081695
+En(s=38.00) = -156.95745645734291
+En(s=40.00) = -156.95789856447192
+En(s=42.00) = -156.95827739243586
+En(s=44.00) = -156.95860260098365
+En(s=46.00) = -156.95888221748945
+En(s=48.00) = -156.9591229573486
+En(s=50.00) = -156.95933045487752
+En(s=52.00) = -156.9595094830783
+En(s=54.00) = -156.95966406258898
+En(s=56.00) = -156.9597976333083
+En(s=58.00) = -156.959913120433
+En(s=60.00) = -156.96001301968636
+En(s=62.00) = -156.96009947035512
+En(s=64.00) = -156.96017431700858
+En(s=66.00) = -156.9602391346058
+En(s=68.00) = -156.96029528587704
+En(s=70.00) = -156.96034393707825
+En(s=72.00) = -156.96038610289764
+En(s=74.00) = -156.960422650889
+En(s=76.00) = -156.9604543332717
+En(s=78.00) = -156.96048180642228
+En(s=80.00) = -156.96050562698966
+En(s=82.00) = -156.96052628645384
+En(s=84.00) = -156.96054420530814
+En(s=86.00) = -156.96055974573508
+En(s=88.00) = -156.96057322938134
+En(s=90.00) = -156.96058492155692
+En(s=92.00) = -156.9605950653691
+En(s=94.00) = -156.96060387024676
+En(s=96.00) = -156.96061150516346
+En(s=98.00) = -156.9606181317737
+En(s=100.00) = -156.96062387716213
+En(s=102.00) = -156.96062886546738
+En(s=104.00) = -156.96063319387866
+En(s=106.00) = -156.96063694946244
+En(s=108.00) = -156.96064020590688
+En(s=110.00) = -156.96064303356673
+En(s=112.00) = -156.96064548742962
+En(s=114.00) = -156.96064761386958
+En(s=116.00) = -156.96064946035307
+En(s=118.00) = -156.96065106383094
+En(s=120.00) = -156.96065245383974
+En(s=122.00) = -156.96065366074936
+En(s=124.00) = -156.96065470788687
+En(s=126.00) = -156.96065561710498
+En(s=128.00) = -156.96065640816423
+En(s=130.00) = -156.9606570899669
+En(s=132.00) = -156.96065768715428
+En(s=134.00) = -156.96065819756132
+En(s=136.00) = -156.96065864917293
+En(s=138.00) = -156.96065903690393
+En(s=140.00) = -156.9606593715372
+En(s=142.00) = -156.9606596642673
+Operator:Rp2
+   HF point proton radius     2.049501 charge radius     2.211009 => HF+PT     2.229791
+s=20.00(Net): point proton radius     2.099896 charge radius     2.257802
+s=22.00(Net): point proton radius     2.100356 charge radius     2.258230
+s=24.00(Net): point proton radius     2.100754 charge radius     2.258600
+s=26.00(Net): point proton radius     2.101096 charge radius     2.258918
+s=28.00(Net): point proton radius     2.101391 charge radius     2.259193
+s=30.00(Net): point proton radius     2.101646 charge radius     2.259429
+s=32.00(Net): point proton radius     2.101866 charge radius     2.259634
+s=34.00(Net): point proton radius     2.102056 charge radius     2.259811
+s=36.00(Net): point proton radius     2.102221 charge radius     2.259964
+s=38.00(Net): point proton radius     2.102364 charge radius     2.260097
+s=40.00(Net): point proton radius     2.102487 charge radius     2.260212
+s=42.00(Net): point proton radius     2.102595 charge radius     2.260312
+s=44.00(Net): point proton radius     2.102688 charge radius     2.260399
+s=46.00(Net): point proton radius     2.102769 charge radius     2.260474
+s=48.00(Net): point proton radius     2.102839 charge radius     2.260540
+s=50.00(Net): point proton radius     2.102900 charge radius     2.260597
+s=52.00(Net): point proton radius     2.102953 charge radius     2.260646
+s=54.00(Net): point proton radius     2.103000 charge radius     2.260689
+s=56.00(Net): point proton radius     2.103040 charge radius     2.260726
+s=58.00(Net): point proton radius     2.103074 charge radius     2.260758
+s=60.00(Net): point proton radius     2.103104 charge radius     2.260786
+s=62.00(Net): point proton radius     2.103131 charge radius     2.260811
+s=64.00(Net): point proton radius     2.103153 charge radius     2.260832
+s=66.00(Net): point proton radius     2.103173 charge radius     2.260850
+s=68.00(Net): point proton radius     2.103190 charge radius     2.260866
+s=70.00(Net): point proton radius     2.103205 charge radius     2.260880
+s=72.00(Net): point proton radius     2.103218 charge radius     2.260892
+s=74.00(Net): point proton radius     2.103229 charge radius     2.260902
+s=76.00(Net): point proton radius     2.103239 charge radius     2.260911
+s=78.00(Net): point proton radius     2.103247 charge radius     2.260919
+s=80.00(Net): point proton radius     2.103255 charge radius     2.260926
+s=82.00(Net): point proton radius     2.103261 charge radius     2.260932
+s=84.00(Net): point proton radius     2.103266 charge radius     2.260937
+s=86.00(Net): point proton radius     2.103271 charge radius     2.260941
+s=88.00(Net): point proton radius     2.103275 charge radius     2.260945
+s=90.00(Net): point proton radius     2.103279 charge radius     2.260949
+s=92.00(Net): point proton radius     2.103282 charge radius     2.260952
+s=94.00(Net): point proton radius     2.103285 charge radius     2.260954
+s=96.00(Net): point proton radius     2.103287 charge radius     2.260956
+s=98.00(Net): point proton radius     2.103289 charge radius     2.260958
+s=100.00(Net): point proton radius     2.103291 charge radius     2.260960
+s=102.00(Net): point proton radius     2.103293 charge radius     2.260961
+s=104.00(Net): point proton radius     2.103294 charge radius     2.260963
+s=106.00(Net): point proton radius     2.103295 charge radius     2.260964
+s=108.00(Net): point proton radius     2.103296 charge radius     2.260965
+s=110.00(Net): point proton radius     2.103297 charge radius     2.260965
+s=112.00(Net): point proton radius     2.103298 charge radius     2.260966
+s=114.00(Net): point proton radius     2.103298 charge radius     2.260967
+s=116.00(Net): point proton radius     2.103299 charge radius     2.260967
+s=118.00(Net): point proton radius     2.103299 charge radius     2.260968
+s=120.00(Net): point proton radius     2.103300 charge radius     2.260968
+s=122.00(Net): point proton radius     2.103300 charge radius     2.260968
+s=124.00(Net): point proton radius     2.103301 charge radius     2.260969
+s=126.00(Net): point proton radius     2.103301 charge radius     2.260969
+s=128.00(Net): point proton radius     2.103301 charge radius     2.260969
+s=130.00(Net): point proton radius     2.103301 charge radius     2.260969
+s=132.00(Net): point proton radius     2.103301 charge radius     2.260970
+s=134.00(Net): point proton radius     2.103302 charge radius     2.260970
+s=136.00(Net): point proton radius     2.103302 charge radius     2.260970
+s=138.00(Net): point proton radius     2.103302 charge radius     2.260970
+s=140.00(Net): point proton radius     2.103302 charge radius     2.260970
+s=142.00(Net): point proton radius     2.103302 charge radius     2.260970
+IMSRG point proton radius     2.103302 charge radius     2.260970
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax4.snt.bin
+size of dWS (jmax 9 lmax 40 e2max 8 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    1.11 MB   d6j_lj    0.28 MB
+  d9j_lsj    1.76 MB  dictHOB    0.44 MB
+target: O16 Ref. => Z=8 N=8 E:     -86.8656  = E1b    329.29  + E2b   -416.16   (    -35.64  -327.21   -53.31)
+EMP2    -23.15627 1b    -0.000 pp    -2.982 pn   -17.138 nn    -3.036
+EMP3      0.47114 pp     0.637 hh    -1.206 ph     1.040
+E_HF    -86.86559  E_MBPT(3) =    -109.5507  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000   -86.86559162  0.000000e+00  0.000000e+00  2.592180e-16  1.248035e+00         0         0
+     1    0.250   -96.05167586  6.480450e-17  3.120087e-01  2.059998e-02  9.384753e-01         8         0
+En(s=20.00) = -111.84526595611528
+En(s=22.00) = -111.8455715976882
+En(s=24.00) = -111.84578465294473
+En(s=26.00) = -111.84593222015387
+En(s=28.00) = -111.84603373022011
+En(s=30.00) = -111.8461029798974
+En(s=32.00) = -111.84614970903584
+En(s=34.00) = -111.84618077040395
+En(s=36.00) = -111.8462009745984
+En(s=38.00) = -111.8462136936085
+En(s=40.00) = -111.84622131489053
+En(s=42.00) = -111.84622547317072
+En(s=44.00) = -111.84622733928921
+En(s=46.00) = -111.84622770813546
+En(s=48.00) = -111.84622714472316
+En(s=50.00) = -111.84622600843161
+En(s=52.00) = -111.8462245804963
+En(s=54.00) = -111.84622301345057
+En(s=56.00) = -111.84622142798564
+En(s=58.00) = -111.84621989827546
+En(s=60.00) = -111.8462184536207
+En(s=62.00) = -111.84621711748484
+En(s=64.00) = -111.84621590683643
+En(s=66.00) = -111.84621482561985
+En(s=68.00) = -111.84621386646154
+En(s=70.00) = -111.8462130120672
+En(s=72.00) = -111.84621225975454
+En(s=74.00) = -111.84621160728402
+En(s=76.00) = -111.84621103305756
+En(s=78.00) = -111.84621053960514
+En(s=80.00) = -111.84621011042118
+En(s=82.00) = -111.84620973682144
+En(s=84.00) = -111.84620941633919
+En(s=86.00) = -111.84620913731588
+En(s=88.00) = -111.84620889940977
+En(s=90.00) = -111.84620868894991
+En(s=92.00) = -111.84620850968818
+En(s=94.00) = -111.84620836109487
+En(s=96.00) = -111.84620823250972
+En(s=98.00) = -111.846208120534
+En(s=100.00) = -111.84620802458933
+En(s=102.00) = -111.84620794316837
+En(s=104.00) = -111.84620787117396
+En(s=106.00) = -111.84620781124548
+En(s=106.50) = -111.84620779729815
+Operator:Rp2
+   HF point proton radius     2.147429 charge radius     2.302077 => HF+PT     2.322211
+s=20.00(Net): point proton radius     2.209398 charge radius     2.359989
+s=22.00(Net): point proton radius     2.209523 charge radius     2.360105
+s=24.00(Net): point proton radius     2.209616 charge radius     2.360193
+s=26.00(Net): point proton radius     2.209686 charge radius     2.360259
+s=28.00(Net): point proton radius     2.209740 charge radius     2.360309
+s=30.00(Net): point proton radius     2.209781 charge radius     2.360347
+s=32.00(Net): point proton radius     2.209813 charge radius     2.360377
+s=34.00(Net): point proton radius     2.209838 charge radius     2.360400
+s=36.00(Net): point proton radius     2.209858 charge radius     2.360419
+s=38.00(Net): point proton radius     2.209874 charge radius     2.360434
+s=40.00(Net): point proton radius     2.209886 charge radius     2.360446
+s=42.00(Net): point proton radius     2.209897 charge radius     2.360456
+s=44.00(Net): point proton radius     2.209905 charge radius     2.360464
+s=46.00(Net): point proton radius     2.209912 charge radius     2.360470
+s=48.00(Net): point proton radius     2.209918 charge radius     2.360476
+s=50.00(Net): point proton radius     2.209923 charge radius     2.360480
+s=52.00(Net): point proton radius     2.209927 charge radius     2.360484
+s=54.00(Net): point proton radius     2.209931 charge radius     2.360487
+s=56.00(Net): point proton radius     2.209934 charge radius     2.360490
+s=58.00(Net): point proton radius     2.209936 charge radius     2.360492
+s=60.00(Net): point proton radius     2.209938 charge radius     2.360494
+s=62.00(Net): point proton radius     2.209940 charge radius     2.360496
+s=64.00(Net): point proton radius     2.209941 charge radius     2.360497
+s=66.00(Net): point proton radius     2.209942 charge radius     2.360498
+s=68.00(Net): point proton radius     2.209943 charge radius     2.360499
+s=70.00(Net): point proton radius     2.209944 charge radius     2.360500
+s=72.00(Net): point proton radius     2.209945 charge radius     2.360501
+s=74.00(Net): point proton radius     2.209946 charge radius     2.360501
+s=76.00(Net): point proton radius     2.209946 charge radius     2.360502
+s=78.00(Net): point proton radius     2.209947 charge radius     2.360502
+s=80.00(Net): point proton radius     2.209947 charge radius     2.360503
+s=82.00(Net): point proton radius     2.209948 charge radius     2.360503
+s=84.00(Net): point proton radius     2.209948 charge radius     2.360503
+s=86.00(Net): point proton radius     2.209948 charge radius     2.360504
+s=88.00(Net): point proton radius     2.209948 charge radius     2.360504
+s=90.00(Net): point proton radius     2.209948 charge radius     2.360504
+s=92.00(Net): point proton radius     2.209949 charge radius     2.360504
+s=94.00(Net): point proton radius     2.209949 charge radius     2.360504
+s=96.00(Net): point proton radius     2.209949 charge radius     2.360504
+s=98.00(Net): point proton radius     2.209949 charge radius     2.360504
+s=100.00(Net): point proton radius     2.209949 charge radius     2.360504
+s=102.00(Net): point proton radius     2.209949 charge radius     2.360504
+s=104.00(Net): point proton radius     2.209949 charge radius     2.360505
+s=106.00(Net): point proton radius     2.209949 charge radius     2.360505
+s=106.50(Net): point proton radius     2.209949 charge radius     2.360505
+IMSRG point proton radius     2.209949 charge radius     2.360505
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax4.snt.bin
+size of dWS (jmax 9 lmax 40 e2max 8 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    1.11 MB   d6j_lj    0.28 MB
+  d9j_lsj    1.76 MB  dictHOB    0.44 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -518.0711  = E1b   1244.59  + E2b  -1762.66   (   -180.68 -1290.95  -291.03)
+EMP2    -37.46075 1b    -0.000 pp    -3.066 pn   -31.388 nn    -3.008
+EMP3      0.81765 pp    -0.442 hh    -2.132 ph     3.391
+E_HF   -518.07110  E_MBPT(3) =    -554.7142  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -518.07109685  0.000000e+00  0.000000e+00  8.525815e-17  1.862321e+00         0         0
+     1    0.250  -532.93491527  2.131454e-17  4.655802e-01  3.191414e-02  1.401019e+00         8         0
+En(s=20.00) = -555.6791154455673
+En(s=22.00) = -555.680484807318
+En(s=24.00) = -555.6816257575132
+En(s=26.00) = -555.6825788397225
+En(s=28.00) = -555.683377273791
+En(s=30.00) = -555.684048144516
+En(s=32.00) = -555.6846134692174
+En(s=34.00) = -555.6850911653039
+En(s=36.00) = -555.6854958541853
+En(s=38.00) = -555.6858394948151
+En(s=40.00) = -555.6861319253693
+En(s=42.00) = -555.6863812414708
+En(s=44.00) = -555.6865941683562
+En(s=46.00) = -555.6867762907896
+En(s=48.00) = -555.6869322705304
+En(s=50.00) = -555.6870660197504
+En(s=52.00) = -555.6871808239254
+En(s=54.00) = -555.6872794591445
+En(s=56.00) = -555.6873642643753
+En(s=58.00) = -555.6874372321029
+En(s=60.00) = -555.6875000569764
+En(s=62.00) = -555.6875541670772
+En(s=64.00) = -555.6876008043421
+En(s=66.00) = -555.6876410090184
+En(s=68.00) = -555.6876756825218
+En(s=70.00) = -555.6877055991265
+En(s=72.00) = -555.6877314086903
+En(s=74.00) = -555.687753687267
+En(s=76.00) = -555.6877729214793
+En(s=78.00) = -555.6877895285465
+En(s=80.00) = -555.6878038696846
+En(s=82.00) = -555.6878162538313
+En(s=84.00) = -555.6878269510945
+En(s=86.00) = -555.6878361936053
+En(s=88.00) = -555.6878441746421
+En(s=90.00) = -555.6878510755104
+En(s=92.00) = -555.6878570328176
+En(s=94.00) = -555.6878621850101
+En(s=96.00) = -555.6878666317482
+En(s=98.00) = -555.6878704785121
+En(s=100.00) = -555.6878738007485
+En(s=102.00) = -555.6878766742009
+En(s=104.00) = -555.6878791551827
+En(s=106.00) = -555.6878813013114
+En(s=108.00) = -555.687883155398
+En(s=110.00) = -555.6878847587883
+En(s=112.00) = -555.6878861403037
+En(s=114.00) = -555.6878873395882
+En(s=116.00) = -555.68788837288
+En(s=118.00) = -555.6878892657543
+En(s=120.00) = -555.6878900413333
+En(s=122.00) = -555.687890707496
+En(s=124.00) = -555.6878912857841
+En(s=126.00) = -555.687891784415
+En(s=128.00) = -555.6878922159233
+En(s=130.00) = -555.6878925878003
+En(s=132.00) = -555.6878929100362
+En(s=134.00) = -555.6878931895125
+En(s=136.00) = -555.6878934295506
+En(s=138.00) = -555.6878936390858
+En(s=140.00) = -555.6878938175826
+En(s=142.00) = -555.6878939754533
+En(s=144.00) = -555.6878941059482
+En(s=146.00) = -555.6878942242713
+En(s=148.00) = -555.6878943260785
+En(s=150.00) = -555.6878944124859
+En(s=150.75) = -555.6878944424232
+Operator:Rp2
+   HF point proton radius     2.420879 charge radius     2.559055 => HF+PT     2.571828
+s=20.00(Net): point proton radius     2.458523 charge radius     2.594695
+s=22.00(Net): point proton radius     2.458672 charge radius     2.594836
+s=24.00(Net): point proton radius     2.458801 charge radius     2.594959
+s=26.00(Net): point proton radius     2.458914 charge radius     2.595065
+s=28.00(Net): point proton radius     2.459012 charge radius     2.595158
+s=30.00(Net): point proton radius     2.459097 charge radius     2.595239
+s=32.00(Net): point proton radius     2.459170 charge radius     2.595308
+s=34.00(Net): point proton radius     2.459235 charge radius     2.595369
+s=36.00(Net): point proton radius     2.459290 charge radius     2.595422
+s=38.00(Net): point proton radius     2.459338 charge radius     2.595467
+s=40.00(Net): point proton radius     2.459380 charge radius     2.595507
+s=42.00(Net): point proton radius     2.459416 charge radius     2.595541
+s=44.00(Net): point proton radius     2.459448 charge radius     2.595571
+s=46.00(Net): point proton radius     2.459475 charge radius     2.595597
+s=48.00(Net): point proton radius     2.459499 charge radius     2.595619
+s=50.00(Net): point proton radius     2.459519 charge radius     2.595639
+s=52.00(Net): point proton radius     2.459537 charge radius     2.595656
+s=54.00(Net): point proton radius     2.459552 charge radius     2.595670
+s=56.00(Net): point proton radius     2.459566 charge radius     2.595683
+s=58.00(Net): point proton radius     2.459577 charge radius     2.595694
+s=60.00(Net): point proton radius     2.459587 charge radius     2.595703
+s=62.00(Net): point proton radius     2.459596 charge radius     2.595711
+s=64.00(Net): point proton radius     2.459603 charge radius     2.595718
+s=66.00(Net): point proton radius     2.459609 charge radius     2.595724
+s=68.00(Net): point proton radius     2.459615 charge radius     2.595730
+s=70.00(Net): point proton radius     2.459620 charge radius     2.595734
+s=72.00(Net): point proton radius     2.459624 charge radius     2.595738
+s=74.00(Net): point proton radius     2.459628 charge radius     2.595742
+s=76.00(Net): point proton radius     2.459631 charge radius     2.595745
+s=78.00(Net): point proton radius     2.459633 charge radius     2.595747
+s=80.00(Net): point proton radius     2.459636 charge radius     2.595749
+s=82.00(Net): point proton radius     2.459638 charge radius     2.595751
+s=84.00(Net): point proton radius     2.459640 charge radius     2.595753
+s=86.00(Net): point proton radius     2.459641 charge radius     2.595754
+s=88.00(Net): point proton radius     2.459642 charge radius     2.595755
+s=90.00(Net): point proton radius     2.459643 charge radius     2.595757
+s=92.00(Net): point proton radius     2.459644 charge radius     2.595757
+s=94.00(Net): point proton radius     2.459645 charge radius     2.595758
+s=96.00(Net): point proton radius     2.459646 charge radius     2.595759
+s=98.00(Net): point proton radius     2.459647 charge radius     2.595760
+s=100.00(Net): point proton radius     2.459647 charge radius     2.595760
+s=102.00(Net): point proton radius     2.459648 charge radius     2.595761
+s=104.00(Net): point proton radius     2.459648 charge radius     2.595761
+s=106.00(Net): point proton radius     2.459648 charge radius     2.595761
+s=108.00(Net): point proton radius     2.459649 charge radius     2.595762
+s=110.00(Net): point proton radius     2.459649 charge radius     2.595762
+s=112.00(Net): point proton radius     2.459649 charge radius     2.595762
+s=114.00(Net): point proton radius     2.459649 charge radius     2.595762
+s=116.00(Net): point proton radius     2.459650 charge radius     2.595762
+s=118.00(Net): point proton radius     2.459650 charge radius     2.595762
+s=120.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=122.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=124.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=126.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=128.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=130.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=132.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=134.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=136.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=138.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=140.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=142.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=144.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=146.00(Net): point proton radius     2.459650 charge radius     2.595763
+s=148.00(Net): point proton radius     2.459651 charge radius     2.595763
+s=150.00(Net): point proton radius     2.459651 charge radius     2.595763
+s=150.75(Net): point proton radius     2.459651 charge radius     2.595763
+IMSRG point proton radius     2.459651 charge radius     2.595763
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax4.snt.bin
+size of dWS (jmax 9 lmax 40 e2max 8 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    1.11 MB   d6j_lj    0.28 MB
+  d9j_lsj    1.76 MB  dictHOB    0.44 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -242.2325  = E1b    980.70  + E2b  -1222.94   (    -69.47  -989.88  -163.58)
+EMP2    -52.61629 1b    -0.000 pp    -7.237 pn   -37.984 nn    -7.395
+EMP3      3.45120 pp     0.480 hh    -1.711 ph     4.682
+E_HF   -242.23255  E_MBPT(3) =    -291.3976  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -242.23254846  0.000000e+00  0.000000e+00  3.083778e-16  2.181830e+00         0         0
+     1    0.250  -262.76186009  7.709444e-17  5.454574e-01  1.431689e-02  1.612072e+00         8         0
+En(s=20.00) = -293.3474260621618
+En(s=22.00) = -293.3477454275586
+En(s=24.00) = -293.3479773325768
+En(s=26.00) = -293.3481484680569
+En(s=28.00) = -293.3482766876614
+En(s=30.00) = -293.3483740878404
+En(s=32.00) = -293.34844900709754
+En(s=34.00) = -293.34850727900886
+En(s=36.00) = -293.3485530446794
+En(s=38.00) = -293.3485892991033
+En(s=40.00) = -293.3486182337906
+En(s=42.00) = -293.348641472509
+En(s=44.00) = -293.3486602406505
+En(s=46.00) = -293.34867546885727
+En(s=48.00) = -293.34868787806266
+En(s=50.00) = -293.34869802138627
+En(s=52.00) = -293.3487063389737
+En(s=54.00) = -293.34871317431123
+En(s=56.00) = -293.3487188020494
+En(s=58.00) = -293.34872344786737
+En(s=60.00) = -293.3487272806935
+En(s=62.00) = -293.3487304561864
+En(s=64.00) = -293.3487330808264
+En(s=66.00) = -293.34873525784576
+En(s=68.00) = -293.34873706635324
+En(s=70.00) = -293.3487385670012
+En(s=72.00) = -293.348739811221
+En(s=74.00) = -293.3487408424636
+En(s=74.50) = -293.34874107143156
+Operator:Rp2
+   HF point proton radius     2.714685 charge radius     2.838595 => HF+PT     2.851530
+s=20.00(Net): point proton radius     2.734891 charge radius     2.857925
+s=22.00(Net): point proton radius     2.734942 charge radius     2.857973
+s=24.00(Net): point proton radius     2.734979 charge radius     2.858010
+s=26.00(Net): point proton radius     2.735008 charge radius     2.858037
+s=28.00(Net): point proton radius     2.735030 charge radius     2.858058
+s=30.00(Net): point proton radius     2.735047 charge radius     2.858074
+s=32.00(Net): point proton radius     2.735060 charge radius     2.858087
+s=34.00(Net): point proton radius     2.735070 charge radius     2.858096
+s=36.00(Net): point proton radius     2.735078 charge radius     2.858104
+s=38.00(Net): point proton radius     2.735085 charge radius     2.858111
+s=40.00(Net): point proton radius     2.735090 charge radius     2.858116
+s=42.00(Net): point proton radius     2.735095 charge radius     2.858120
+s=44.00(Net): point proton radius     2.735098 charge radius     2.858123
+s=46.00(Net): point proton radius     2.735101 charge radius     2.858126
+s=48.00(Net): point proton radius     2.735103 charge radius     2.858128
+s=50.00(Net): point proton radius     2.735105 charge radius     2.858130
+s=52.00(Net): point proton radius     2.735107 charge radius     2.858131
+s=54.00(Net): point proton radius     2.735108 charge radius     2.858132
+s=56.00(Net): point proton radius     2.735109 charge radius     2.858133
+s=58.00(Net): point proton radius     2.735110 charge radius     2.858134
+s=60.00(Net): point proton radius     2.735110 charge radius     2.858135
+s=62.00(Net): point proton radius     2.735111 charge radius     2.858136
+s=64.00(Net): point proton radius     2.735112 charge radius     2.858136
+s=66.00(Net): point proton radius     2.735112 charge radius     2.858136
+s=68.00(Net): point proton radius     2.735112 charge radius     2.858137
+s=70.00(Net): point proton radius     2.735113 charge radius     2.858137
+s=72.00(Net): point proton radius     2.735113 charge radius     2.858137
+s=74.00(Net): point proton radius     2.735113 charge radius     2.858137
+s=74.50(Net): point proton radius     2.735113 charge radius     2.858137
+IMSRG point proton radius     2.735113 charge radius     2.858137
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax6.snt.bin
+size of dWS (jmax 13 lmax 40 e2max 12 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    4.46 MB   d6j_lj    1.11 MB
+  d9j_lsj    2.91 MB  dictHOB    4.36 MB
+target: O16 Ref. => Z=8 N=8 E:    -133.4968  = E1b    362.48  + E2b   -495.98   (    -55.09  -366.70   -74.18)
+EMP2    -30.02747 1b    -0.000 pp    -1.773 pn   -26.477 nn    -1.777
+EMP3      0.66926 pp     0.435 hh    -2.140 ph     2.374
+E_HF   -133.49679  E_MBPT(3) =    -162.8550  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -133.49678635  0.000000e+00  0.000000e+00  1.255781e-15  1.352139e+00         0         0
+     1    0.250  -145.76224042  3.139452e-16  3.380346e-01  1.396749e-02  1.001651e+00         8         0
+En(s=20.00) = -163.40788746935755
+En(s=22.00) = -163.4090375076247
+En(s=24.00) = -163.40998490425153
+En(s=26.00) = -163.41076752135234
+En(s=28.00) = -163.4114169462987
+En(s=30.00) = -163.4119586311982
+En(s=32.00) = -163.41241276511954
+En(s=34.00) = -163.41279528464867
+En(s=36.00) = -163.41311881172578
+En(s=38.00) = -163.4133934038042
+En(s=40.00) = -163.41362715162978
+En(s=42.00) = -163.41382661529187
+En(s=44.00) = -163.41399716215
+En(s=46.00) = -163.41414322745172
+En(s=48.00) = -163.41426849445747
+En(s=50.00) = -163.41437604417897
+En(s=52.00) = -163.41446847164585
+En(s=54.00) = -163.41454795538556
+En(s=56.00) = -163.41461635514668
+En(s=58.00) = -163.41467524737115
+En(s=60.00) = -163.4147259747482
+En(s=62.00) = -163.41476968718206
+En(s=64.00) = -163.4148073641335
+En(s=66.00) = -163.41483984784637
+En(s=68.00) = -163.414867859853
+En(s=70.00) = -163.41489202091736
+En(s=72.00) = -163.4149128626276
+En(s=74.00) = -163.41493084280393
+En(s=76.00) = -163.41494636194727
+En(s=78.00) = -163.41495974932204
+En(s=80.00) = -163.4149713029641
+En(s=82.00) = -163.41498127587894
+En(s=84.00) = -163.41498988383867
+En(s=86.00) = -163.4149973142481
+En(s=88.00) = -163.41500372646385
+En(s=90.00) = -163.41500926287742
+En(s=92.00) = -163.41501404212067
+En(s=94.00) = -163.41501816639757
+En(s=96.00) = -163.41502172963604
+En(s=98.00) = -163.4150248023407
+En(s=100.00) = -163.4150274583252
+En(s=102.00) = -163.41502975057273
+En(s=104.00) = -163.41503172995974
+En(s=106.00) = -163.4150334368458
+En(s=108.00) = -163.41503491439116
+En(s=110.00) = -163.41503618520954
+En(s=112.00) = -163.41503728718556
+En(s=114.00) = -163.4150382343711
+En(s=116.00) = -163.4150390549191
+En(s=118.00) = -163.4150397622513
+En(s=120.00) = -163.41504037263223
+En(s=122.00) = -163.4150409014486
+En(s=124.00) = -163.4150413576514
+En(s=125.25) = -163.4150416102901
+Operator:Rp2
+   HF point proton radius     2.055657 charge radius     2.216716 => HF+PT     2.233528
+s=20.00(Net): point proton radius     2.094313 charge radius     2.252610
+s=22.00(Net): point proton radius     2.094628 charge radius     2.252903
+s=24.00(Net): point proton radius     2.094895 charge radius     2.253152
+s=26.00(Net): point proton radius     2.095122 charge radius     2.253362
+s=28.00(Net): point proton radius     2.095314 charge radius     2.253541
+s=30.00(Net): point proton radius     2.095477 charge radius     2.253693
+s=32.00(Net): point proton radius     2.095616 charge radius     2.253822
+s=34.00(Net): point proton radius     2.095736 charge radius     2.253933
+s=36.00(Net): point proton radius     2.095838 charge radius     2.254028
+s=38.00(Net): point proton radius     2.095925 charge radius     2.254109
+s=40.00(Net): point proton radius     2.096001 charge radius     2.254179
+s=42.00(Net): point proton radius     2.096065 charge radius     2.254240
+s=44.00(Net): point proton radius     2.096121 charge radius     2.254292
+s=46.00(Net): point proton radius     2.096169 charge radius     2.254336
+s=48.00(Net): point proton radius     2.096211 charge radius     2.254375
+s=50.00(Net): point proton radius     2.096247 charge radius     2.254408
+s=52.00(Net): point proton radius     2.096278 charge radius     2.254437
+s=54.00(Net): point proton radius     2.096304 charge radius     2.254462
+s=56.00(Net): point proton radius     2.096327 charge radius     2.254483
+s=58.00(Net): point proton radius     2.096347 charge radius     2.254502
+s=60.00(Net): point proton radius     2.096365 charge radius     2.254518
+s=62.00(Net): point proton radius     2.096379 charge radius     2.254532
+s=64.00(Net): point proton radius     2.096392 charge radius     2.254544
+s=66.00(Net): point proton radius     2.096403 charge radius     2.254554
+s=68.00(Net): point proton radius     2.096413 charge radius     2.254563
+s=70.00(Net): point proton radius     2.096421 charge radius     2.254570
+s=72.00(Net): point proton radius     2.096428 charge radius     2.254577
+s=74.00(Net): point proton radius     2.096434 charge radius     2.254583
+s=76.00(Net): point proton radius     2.096440 charge radius     2.254588
+s=78.00(Net): point proton radius     2.096444 charge radius     2.254592
+s=80.00(Net): point proton radius     2.096448 charge radius     2.254596
+s=82.00(Net): point proton radius     2.096452 charge radius     2.254599
+s=84.00(Net): point proton radius     2.096455 charge radius     2.254601
+s=86.00(Net): point proton radius     2.096457 charge radius     2.254604
+s=88.00(Net): point proton radius     2.096459 charge radius     2.254606
+s=90.00(Net): point proton radius     2.096461 charge radius     2.254608
+s=92.00(Net): point proton radius     2.096463 charge radius     2.254609
+s=94.00(Net): point proton radius     2.096464 charge radius     2.254611
+s=96.00(Net): point proton radius     2.096465 charge radius     2.254612
+s=98.00(Net): point proton radius     2.096467 charge radius     2.254613
+s=100.00(Net): point proton radius     2.096467 charge radius     2.254613
+s=102.00(Net): point proton radius     2.096468 charge radius     2.254614
+s=104.00(Net): point proton radius     2.096469 charge radius     2.254615
+s=106.00(Net): point proton radius     2.096470 charge radius     2.254615
+s=108.00(Net): point proton radius     2.096470 charge radius     2.254616
+s=110.00(Net): point proton radius     2.096470 charge radius     2.254616
+s=112.00(Net): point proton radius     2.096471 charge radius     2.254617
+s=114.00(Net): point proton radius     2.096471 charge radius     2.254617
+s=116.00(Net): point proton radius     2.096471 charge radius     2.254617
+s=118.00(Net): point proton radius     2.096472 charge radius     2.254617
+s=120.00(Net): point proton radius     2.096472 charge radius     2.254618
+s=122.00(Net): point proton radius     2.096472 charge radius     2.254618
+s=124.00(Net): point proton radius     2.096472 charge radius     2.254618
+s=125.25(Net): point proton radius     2.096472 charge radius     2.254618
+IMSRG point proton radius     2.096472 charge radius     2.254618
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax6.snt.bin
+size of dWS (jmax 13 lmax 40 e2max 12 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    4.46 MB   d6j_lj    1.11 MB
+  d9j_lsj    2.91 MB  dictHOB    4.36 MB
+target: O16 Ref. => Z=8 N=8 E:     -87.5079  = E1b    326.66  + E2b   -414.17   (    -35.45  -325.58   -53.14)
+EMP2    -25.74797 1b    -0.000 pp    -3.487 pn   -18.720 nn    -3.540
+EMP3      1.04056 pp     1.180 hh    -1.228 ph     1.089
+E_HF    -87.50791  E_MBPT(3) =    -112.2153  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000   -87.50791414  0.000000e+00  0.000000e+00  3.175406e-15  1.280079e+00         0         0
+     1    0.250   -97.81201082  7.938515e-16  3.200197e-01  1.905140e-02  9.547273e-01         8         0
+En(s=20.00) = -114.48949236110977
+En(s=22.00) = -114.49000332550844
+En(s=24.00) = -114.49038157713092
+En(s=26.00) = -114.49066442172368
+En(s=28.00) = -114.49087942614058
+En(s=30.00) = -114.49104585273386
+En(s=32.00) = -114.49117690884734
+En(s=34.00) = -114.49128167105293
+En(s=36.00) = -114.49136647421324
+En(s=38.00) = -114.49143582846827
+En(s=40.00) = -114.49149301587137
+En(s=42.00) = -114.4915404827952
+En(s=44.00) = -114.49158009586364
+En(s=46.00) = -114.49161329271
+En(s=48.00) = -114.4916412106467
+En(s=50.00) = -114.49166475623329
+En(s=52.00) = -114.49168465072312
+En(s=54.00) = -114.49170150909764
+En(s=56.00) = -114.49171579659809
+En(s=58.00) = -114.4917279343921
+En(s=60.00) = -114.4917382504562
+En(s=62.00) = -114.49174702696631
+En(s=64.00) = -114.49175450289856
+En(s=66.00) = -114.49176086844223
+En(s=68.00) = -114.49176629645193
+En(s=70.00) = -114.4917709270944
+En(s=72.00) = -114.4917748740867
+En(s=74.00) = -114.49177824700418
+En(s=76.00) = -114.49178112181083
+En(s=78.00) = -114.49178357690776
+En(s=80.00) = -114.49178566972604
+En(s=82.00) = -114.49178746286347
+En(s=84.00) = -114.49178899679544
+En(s=86.00) = -114.49179030159767
+En(s=88.00) = -114.49179141729519
+En(s=90.00) = -114.49179237060885
+En(s=92.00) = -114.49179319102726
+En(s=94.00) = -114.49179388312012
+En(s=96.00) = -114.49179448004892
+En(s=98.00) = -114.49179498760654
+En(s=100.00) = -114.49179542092199
+En(s=102.00) = -114.49179579352649
+En(s=104.00) = -114.4917961093435
+En(s=106.00) = -114.49179638404661
+En(s=108.00) = -114.49179661874382
+En(s=109.75) = -114.4917967918855
+Operator:Rp2
+   HF point proton radius     2.159614 charge radius     2.313448 => HF+PT     2.330060
+s=20.00(Net): point proton radius     2.218024 charge radius     2.368066
+s=22.00(Net): point proton radius     2.218217 charge radius     2.368247
+s=24.00(Net): point proton radius     2.218368 charge radius     2.368388
+s=26.00(Net): point proton radius     2.218487 charge radius     2.368499
+s=28.00(Net): point proton radius     2.218582 charge radius     2.368588
+s=30.00(Net): point proton radius     2.218659 charge radius     2.368661
+s=32.00(Net): point proton radius     2.218722 charge radius     2.368720
+s=34.00(Net): point proton radius     2.218775 charge radius     2.368770
+s=36.00(Net): point proton radius     2.218820 charge radius     2.368811
+s=38.00(Net): point proton radius     2.218857 charge radius     2.368846
+s=40.00(Net): point proton radius     2.218888 charge radius     2.368876
+s=42.00(Net): point proton radius     2.218915 charge radius     2.368901
+s=44.00(Net): point proton radius     2.218938 charge radius     2.368922
+s=46.00(Net): point proton radius     2.218957 charge radius     2.368940
+s=48.00(Net): point proton radius     2.218974 charge radius     2.368956
+s=50.00(Net): point proton radius     2.218988 charge radius     2.368969
+s=52.00(Net): point proton radius     2.219000 charge radius     2.368980
+s=54.00(Net): point proton radius     2.219011 charge radius     2.368990
+s=56.00(Net): point proton radius     2.219019 charge radius     2.368998
+s=58.00(Net): point proton radius     2.219027 charge radius     2.369005
+s=60.00(Net): point proton radius     2.219033 charge radius     2.369011
+s=62.00(Net): point proton radius     2.219039 charge radius     2.369017
+s=64.00(Net): point proton radius     2.219044 charge radius     2.369021
+s=66.00(Net): point proton radius     2.219048 charge radius     2.369025
+s=68.00(Net): point proton radius     2.219051 charge radius     2.369028
+s=70.00(Net): point proton radius     2.219054 charge radius     2.369031
+s=72.00(Net): point proton radius     2.219056 charge radius     2.369033
+s=74.00(Net): point proton radius     2.219059 charge radius     2.369035
+s=76.00(Net): point proton radius     2.219060 charge radius     2.369037
+s=78.00(Net): point proton radius     2.219062 charge radius     2.369038
+s=80.00(Net): point proton radius     2.219063 charge radius     2.369040
+s=82.00(Net): point proton radius     2.219064 charge radius     2.369041
+s=84.00(Net): point proton radius     2.219065 charge radius     2.369041
+s=86.00(Net): point proton radius     2.219066 charge radius     2.369042
+s=88.00(Net): point proton radius     2.219067 charge radius     2.369043
+s=90.00(Net): point proton radius     2.219068 charge radius     2.369044
+s=92.00(Net): point proton radius     2.219068 charge radius     2.369044
+s=94.00(Net): point proton radius     2.219069 charge radius     2.369044
+s=96.00(Net): point proton radius     2.219069 charge radius     2.369045
+s=98.00(Net): point proton radius     2.219069 charge radius     2.369045
+s=100.00(Net): point proton radius     2.219070 charge radius     2.369045
+s=102.00(Net): point proton radius     2.219070 charge radius     2.369046
+s=104.00(Net): point proton radius     2.219070 charge radius     2.369046
+s=106.00(Net): point proton radius     2.219070 charge radius     2.369046
+s=108.00(Net): point proton radius     2.219070 charge radius     2.369046
+s=109.75(Net): point proton radius     2.219070 charge radius     2.369046
+IMSRG point proton radius     2.219070 charge radius     2.369046
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax6.snt.bin
+size of dWS (jmax 13 lmax 40 e2max 12 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    4.46 MB   d6j_lj    1.11 MB
+  d9j_lsj    2.91 MB  dictHOB    4.36 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -518.7627  = E1b   1242.62  + E2b  -1761.39   (   -180.62 -1289.59  -291.18)
+EMP2    -65.10071 1b    -0.000 pp    -4.970 pn   -55.187 nn    -4.944
+EMP3      2.44087 pp     0.307 hh    -3.224 ph     5.358
+E_HF   -518.76270  E_MBPT(3) =    -581.4225  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -518.76269910  0.000000e+00  0.000000e+00  1.278040e-15  2.251636e+00         0         0
+     1    0.250  -545.10966540  3.195099e-16  5.629089e-01  2.745932e-02  1.660296e+00         8         0
+En(s=20.00) = -582.4293003987414
+En(s=22.00) = -582.4303210722026
+En(s=24.00) = -582.4311448583792
+En(s=26.00) = -582.4318128238647
+En(s=28.00) = -582.4323575034349
+En(s=30.00) = -582.432804262459
+En(s=32.00) = -582.4331727751077
+En(s=34.00) = -582.4334783075775
+En(s=36.00) = -582.4337327715544
+En(s=38.00) = -582.4339455471237
+En(s=40.00) = -582.4341240569954
+En(s=42.00) = -582.4342742511847
+En(s=44.00) = -582.4344009261598
+En(s=46.00) = -582.4345079831027
+En(s=48.00) = -582.4345986199241
+En(s=50.00) = -582.4346754642256
+En(s=52.00) = -582.4347406880346
+En(s=54.00) = -582.4347961121692
+En(s=56.00) = -582.4348432462668
+En(s=58.00) = -582.4348833648495
+En(s=60.00) = -582.4349175286764
+En(s=62.00) = -582.4349466346781
+En(s=64.00) = -582.4349714479285
+En(s=66.00) = -582.4349926093105
+En(s=68.00) = -582.4350106554617
+En(s=70.00) = -582.4350260550779
+En(s=72.00) = -582.435039200928
+En(s=74.00) = -582.4350504181695
+En(s=76.00) = -582.435059995325
+En(s=78.00) = -582.4350681752506
+En(s=80.00) = -582.4350751605057
+En(s=82.00) = -582.4350811251484
+En(s=84.00) = -582.4350862197404
+En(s=86.00) = -582.435090575071
+En(s=88.00) = -582.4350942906159
+En(s=90.00) = -582.4350974678723
+En(s=92.00) = -582.4351001828471
+En(s=94.00) = -582.4351024997262
+En(s=96.00) = -582.4351044833185
+En(s=98.00) = -582.435106176646
+En(s=100.00) = -582.4351076232756
+En(s=102.00) = -582.4351088571823
+En(s=104.00) = -582.435109911874
+En(s=106.00) = -582.4351108139128
+En(s=108.00) = -582.4351115887832
+En(s=110.00) = -582.4351122462572
+En(s=112.00) = -582.4351128084705
+En(s=114.00) = -582.4351132927995
+En(s=116.00) = -582.4351137001107
+En(s=117.25) = -582.4351139274038
+Operator:Rp2
+   HF point proton radius     2.424510 charge radius     2.562490 => HF+PT     2.577131
+s=20.00(Net): point proton radius     2.459925 charge radius     2.596024
+s=22.00(Net): point proton radius     2.460040 charge radius     2.596133
+s=24.00(Net): point proton radius     2.460137 charge radius     2.596224
+s=26.00(Net): point proton radius     2.460218 charge radius     2.596301
+s=28.00(Net): point proton radius     2.460286 charge radius     2.596365
+s=30.00(Net): point proton radius     2.460343 charge radius     2.596419
+s=32.00(Net): point proton radius     2.460391 charge radius     2.596465
+s=34.00(Net): point proton radius     2.460431 charge radius     2.596503
+s=36.00(Net): point proton radius     2.460465 charge radius     2.596535
+s=38.00(Net): point proton radius     2.460495 charge radius     2.596563
+s=40.00(Net): point proton radius     2.460519 charge radius     2.596586
+s=42.00(Net): point proton radius     2.460540 charge radius     2.596606
+s=44.00(Net): point proton radius     2.460558 charge radius     2.596623
+s=46.00(Net): point proton radius     2.460573 charge radius     2.596638
+s=48.00(Net): point proton radius     2.460586 charge radius     2.596650
+s=50.00(Net): point proton radius     2.460597 charge radius     2.596660
+s=52.00(Net): point proton radius     2.460607 charge radius     2.596669
+s=54.00(Net): point proton radius     2.460615 charge radius     2.596677
+s=56.00(Net): point proton radius     2.460622 charge radius     2.596684
+s=58.00(Net): point proton radius     2.460628 charge radius     2.596689
+s=60.00(Net): point proton radius     2.460633 charge radius     2.596694
+s=62.00(Net): point proton radius     2.460637 charge radius     2.596698
+s=64.00(Net): point proton radius     2.460641 charge radius     2.596701
+s=66.00(Net): point proton radius     2.460644 charge radius     2.596704
+s=68.00(Net): point proton radius     2.460646 charge radius     2.596707
+s=70.00(Net): point proton radius     2.460649 charge radius     2.596709
+s=72.00(Net): point proton radius     2.460651 charge radius     2.596711
+s=74.00(Net): point proton radius     2.460652 charge radius     2.596712
+s=76.00(Net): point proton radius     2.460654 charge radius     2.596714
+s=78.00(Net): point proton radius     2.460655 charge radius     2.596715
+s=80.00(Net): point proton radius     2.460656 charge radius     2.596716
+s=82.00(Net): point proton radius     2.460657 charge radius     2.596717
+s=84.00(Net): point proton radius     2.460658 charge radius     2.596717
+s=86.00(Net): point proton radius     2.460658 charge radius     2.596718
+s=88.00(Net): point proton radius     2.460659 charge radius     2.596719
+s=90.00(Net): point proton radius     2.460659 charge radius     2.596719
+s=92.00(Net): point proton radius     2.460660 charge radius     2.596719
+s=94.00(Net): point proton radius     2.460660 charge radius     2.596720
+s=96.00(Net): point proton radius     2.460660 charge radius     2.596720
+s=98.00(Net): point proton radius     2.460661 charge radius     2.596720
+s=100.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=102.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=104.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=106.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=108.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=110.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=112.00(Net): point proton radius     2.460661 charge radius     2.596721
+s=114.00(Net): point proton radius     2.460662 charge radius     2.596721
+s=116.00(Net): point proton radius     2.460662 charge radius     2.596721
+s=117.25(Net): point proton radius     2.460662 charge radius     2.596721
+IMSRG point proton radius     2.460662 charge radius     2.596721
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax6.snt.bin
+size of dWS (jmax 13 lmax 40 e2max 12 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int    4.46 MB   d6j_lj    1.11 MB
+  d9j_lsj    2.91 MB  dictHOB    4.36 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -243.8891  = E1b    968.69  + E2b  -1212.57   (    -68.65  -981.10  -162.83)
+EMP2    -73.29940 1b    -0.000 pp   -10.588 pn   -51.951 nn   -10.760
+EMP3      5.17863 pp     1.949 hh    -2.215 ph     5.445
+E_HF   -243.88905  E_MBPT(3) =    -312.0098  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -243.88905376  0.000000e+00  0.000000e+00  1.630508e-15  2.489781e+00         0         0
+     1    0.250  -272.91563384  4.076271e-16  6.224453e-01  2.832557e-02  1.819820e+00         9         0
+En(s=20.00) = -315.63344931933085
+En(s=22.00) = -315.6351740407038
+En(s=24.00) = -315.6364451513087
+En(s=26.00) = -315.6373926327563
+En(s=28.00) = -315.63810861076564
+En(s=30.00) = -315.63865736868706
+En(s=32.00) = -315.6390837058344
+En(s=34.00) = -315.6394190494084
+En(s=36.00) = -315.6396857572761
+En(s=38.00) = -315.63989989894947
+En(s=40.00) = -315.6400732778458
+En(s=42.00) = -315.64021464942505
+En(s=44.00) = -315.64033062329435
+En(s=46.00) = -315.6404262484938
+En(s=48.00) = -315.6405054455552
+En(s=50.00) = -315.6405712757008
+En(s=52.00) = -315.6406261687318
+En(s=54.00) = -315.6406720573247
+En(s=56.00) = -315.64071051572313
+En(s=58.00) = -315.64074280013585
+En(s=60.00) = -315.6407699513878
+En(s=62.00) = -315.6407928102104
+En(s=64.00) = -315.64081207904985
+En(s=66.00) = -315.6408283420253
+En(s=68.00) = -315.6408420819628
+En(s=70.00) = -315.64085369097415
+En(s=72.00) = -315.64086350653093
+En(s=74.00) = -315.6408718155742
+En(s=76.00) = -315.64087884209346
+En(s=78.00) = -315.6408847946635
+En(s=80.00) = -315.64088984393817
+En(s=82.00) = -315.6408941146626
+En(s=84.00) = -315.64089773607583
+En(s=86.00) = -315.6409007988856
+En(s=88.00) = -315.64090340473234
+En(s=90.00) = -315.6409056085029
+En(s=92.00) = -315.64090747118115
+En(s=94.00) = -315.6409090655571
+En(s=95.50) = -315.64091009289086
+Operator:Rp2
+   HF point proton radius     2.734831 charge radius     2.857868 => HF+PT     2.875037
+s=20.00(Net): point proton radius     2.787338 charge radius     2.908154
+s=22.00(Net): point proton radius     2.787499 charge radius     2.908308
+s=24.00(Net): point proton radius     2.787618 charge radius     2.908423
+s=26.00(Net): point proton radius     2.787708 charge radius     2.908508
+s=28.00(Net): point proton radius     2.787776 charge radius     2.908574
+s=30.00(Net): point proton radius     2.787828 charge radius     2.908623
+s=32.00(Net): point proton radius     2.787868 charge radius     2.908662
+s=34.00(Net): point proton radius     2.787900 charge radius     2.908693
+s=36.00(Net): point proton radius     2.787926 charge radius     2.908718
+s=38.00(Net): point proton radius     2.787947 charge radius     2.908737
+s=40.00(Net): point proton radius     2.787963 charge radius     2.908753
+s=42.00(Net): point proton radius     2.787977 charge radius     2.908766
+s=44.00(Net): point proton radius     2.787988 charge radius     2.908777
+s=46.00(Net): point proton radius     2.787997 charge radius     2.908786
+s=48.00(Net): point proton radius     2.788005 charge radius     2.908793
+s=50.00(Net): point proton radius     2.788011 charge radius     2.908799
+s=52.00(Net): point proton radius     2.788017 charge radius     2.908805
+s=54.00(Net): point proton radius     2.788021 charge radius     2.908809
+s=56.00(Net): point proton radius     2.788025 charge radius     2.908812
+s=58.00(Net): point proton radius     2.788028 charge radius     2.908815
+s=60.00(Net): point proton radius     2.788031 charge radius     2.908818
+s=62.00(Net): point proton radius     2.788033 charge radius     2.908820
+s=64.00(Net): point proton radius     2.788035 charge radius     2.908822
+s=66.00(Net): point proton radius     2.788037 charge radius     2.908824
+s=68.00(Net): point proton radius     2.788038 charge radius     2.908825
+s=70.00(Net): point proton radius     2.788039 charge radius     2.908826
+s=72.00(Net): point proton radius     2.788040 charge radius     2.908827
+s=74.00(Net): point proton radius     2.788041 charge radius     2.908828
+s=76.00(Net): point proton radius     2.788042 charge radius     2.908828
+s=78.00(Net): point proton radius     2.788042 charge radius     2.908829
+s=80.00(Net): point proton radius     2.788043 charge radius     2.908829
+s=82.00(Net): point proton radius     2.788043 charge radius     2.908830
+s=84.00(Net): point proton radius     2.788043 charge radius     2.908830
+s=86.00(Net): point proton radius     2.788044 charge radius     2.908830
+s=88.00(Net): point proton radius     2.788044 charge radius     2.908831
+s=90.00(Net): point proton radius     2.788044 charge radius     2.908831
+s=92.00(Net): point proton radius     2.788044 charge radius     2.908831
+s=94.00(Net): point proton radius     2.788045 charge radius     2.908831
+s=95.50(Net): point proton radius     2.788045 charge radius     2.908831
+IMSRG point proton radius     2.788045 charge radius     2.908831
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax8.snt.bin
+size of dWS (jmax 17 lmax 40 e2max 16 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   17.83 MB   d6j_lj    4.46 MB
+  d9j_lsj    4.29 MB  dictHOB   21.05 MB
+target: O16 Ref. => Z=8 N=8 E:    -133.5839  = E1b    361.90  + E2b   -495.49   (    -55.02  -366.35   -74.12)
+EMP2    -31.70050 1b    -0.000 pp    -1.889 pn   -27.924 nn    -1.888
+EMP3      0.59297 pp     0.581 hh    -2.182 ph     2.194
+E_HF   -133.58387  E_MBPT(3) =    -164.6914  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -133.58386781  0.000000e+00  0.000000e+00  5.799655e-15  1.370890e+00         0         0
+     1    0.250  -146.60072494  1.449914e-15  3.427226e-01  1.259856e-02  1.014211e+00         8         0
+En(s=20.00) = -165.18754249719595
+En(s=22.00) = -165.18843405327993
+En(s=24.00) = -165.18917143432017
+En(s=26.00) = -165.18978014959103
+En(s=28.00) = -165.19028254569454
+En(s=30.00) = -165.190697503435
+En(s=32.00) = -165.19104066586675
+En(s=34.00) = -165.1913248577349
+En(s=36.00) = -165.19156055211536
+En(s=38.00) = -165.191756285457
+En(s=40.00) = -165.19191903374508
+En(s=42.00) = -165.19205450135598
+En(s=44.00) = -165.19216736368767
+En(s=46.00) = -165.1922614701808
+En(s=48.00) = -165.19233999112473
+En(s=50.00) = -165.19240554531538
+En(s=52.00) = -165.192460297664
+En(s=54.00) = -165.19250605087225
+En(s=56.00) = -165.19254429529542
+En(s=58.00) = -165.1925762729451
+En(s=60.00) = -165.19260301887627
+En(s=62.00) = -165.1926253888816
+En(s=64.00) = -165.19264410506682
+En(s=66.00) = -165.1926597663829
+En(s=68.00) = -165.19267287464265
+En(s=70.00) = -165.19268384453213
+En(s=72.00) = -165.19269302414406
+En(s=74.00) = -165.19270071356308
+En(s=76.00) = -165.19270714553699
+En(s=78.00) = -165.19271253497388
+En(s=80.00) = -165.19271703995997
+En(s=82.00) = -165.1927208173942
+En(s=84.00) = -165.19272397981487
+En(s=86.00) = -165.19272662532094
+En(s=88.00) = -165.19272884289816
+En(s=90.00) = -165.1927306976058
+En(s=92.00) = -165.19273224996846
+En(s=94.00) = -165.19273355052982
+En(s=96.00) = -165.19273464029257
+En(s=98.00) = -165.19273555306336
+En(s=100.00) = -165.19273631831228
+En(s=102.00) = -165.19273695623818
+En(s=104.00) = -165.19273749141814
+En(s=106.00) = -165.1927379386191
+En(s=108.00) = -165.192738317699
+En(s=110.00) = -165.19273862962825
+En(s=112.00) = -165.19273889466805
+En(s=114.00) = -165.19273911394012
+En(s=116.00) = -165.19273929913325
+En(s=118.00) = -165.19273945551822
+En(s=120.00) = -165.19273958348336
+En(s=121.25) = -165.1927396532024
+Operator:Rp2
+   HF point proton radius     2.058375 charge radius     2.219237 => HF+PT     2.231960
+s=20.00(Net): point proton radius     2.089548 charge radius     2.248181
+s=22.00(Net): point proton radius     2.089815 charge radius     2.248429
+s=24.00(Net): point proton radius     2.090041 charge radius     2.248639
+s=26.00(Net): point proton radius     2.090232 charge radius     2.248817
+s=28.00(Net): point proton radius     2.090393 charge radius     2.248966
+s=30.00(Net): point proton radius     2.090528 charge radius     2.249092
+s=32.00(Net): point proton radius     2.090641 charge radius     2.249197
+s=34.00(Net): point proton radius     2.090736 charge radius     2.249285
+s=36.00(Net): point proton radius     2.090815 charge radius     2.249359
+s=38.00(Net): point proton radius     2.090882 charge radius     2.249420
+s=40.00(Net): point proton radius     2.090937 charge radius     2.249472
+s=42.00(Net): point proton radius     2.090984 charge radius     2.249515
+s=44.00(Net): point proton radius     2.091023 charge radius     2.249552
+s=46.00(Net): point proton radius     2.091055 charge radius     2.249582
+s=48.00(Net): point proton radius     2.091083 charge radius     2.249607
+s=50.00(Net): point proton radius     2.091106 charge radius     2.249629
+s=52.00(Net): point proton radius     2.091125 charge radius     2.249647
+s=54.00(Net): point proton radius     2.091141 charge radius     2.249661
+s=56.00(Net): point proton radius     2.091154 charge radius     2.249674
+s=58.00(Net): point proton radius     2.091166 charge radius     2.249684
+s=60.00(Net): point proton radius     2.091175 charge radius     2.249693
+s=62.00(Net): point proton radius     2.091183 charge radius     2.249701
+s=64.00(Net): point proton radius     2.091190 charge radius     2.249707
+s=66.00(Net): point proton radius     2.091195 charge radius     2.249712
+s=68.00(Net): point proton radius     2.091200 charge radius     2.249716
+s=70.00(Net): point proton radius     2.091204 charge radius     2.249720
+s=72.00(Net): point proton radius     2.091207 charge radius     2.249723
+s=74.00(Net): point proton radius     2.091210 charge radius     2.249725
+s=76.00(Net): point proton radius     2.091212 charge radius     2.249727
+s=78.00(Net): point proton radius     2.091214 charge radius     2.249729
+s=80.00(Net): point proton radius     2.091215 charge radius     2.249731
+s=82.00(Net): point proton radius     2.091217 charge radius     2.249732
+s=84.00(Net): point proton radius     2.091218 charge radius     2.249733
+s=86.00(Net): point proton radius     2.091219 charge radius     2.249734
+s=88.00(Net): point proton radius     2.091220 charge radius     2.249735
+s=90.00(Net): point proton radius     2.091220 charge radius     2.249735
+s=92.00(Net): point proton radius     2.091221 charge radius     2.249736
+s=94.00(Net): point proton radius     2.091221 charge radius     2.249736
+s=96.00(Net): point proton radius     2.091222 charge radius     2.249736
+s=98.00(Net): point proton radius     2.091222 charge radius     2.249737
+s=100.00(Net): point proton radius     2.091222 charge radius     2.249737
+s=102.00(Net): point proton radius     2.091222 charge radius     2.249737
+s=104.00(Net): point proton radius     2.091223 charge radius     2.249737
+s=106.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=108.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=110.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=112.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=114.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=116.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=118.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=120.00(Net): point proton radius     2.091223 charge radius     2.249738
+s=121.25(Net): point proton radius     2.091223 charge radius     2.249738
+IMSRG point proton radius     2.091223 charge radius     2.249738
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax8.snt.bin
+size of dWS (jmax 17 lmax 40 e2max 16 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   17.83 MB   d6j_lj    4.46 MB
+  d9j_lsj    4.29 MB  dictHOB   21.05 MB
+target: O16 Ref. => Z=8 N=8 E:     -87.8776  = E1b    325.09  + E2b   -412.97   (    -35.38  -324.54   -53.05)
+EMP2    -26.52440 1b    -0.000 pp    -3.594 pn   -19.285 nn    -3.646
+EMP3      1.05336 pp     1.214 hh    -1.249 ph     1.088
+E_HF    -87.87760  E_MBPT(3) =    -113.3486  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000   -87.87759551  0.000000e+00  0.000000e+00  5.736633e-15  1.290312e+00         0         0
+     1    0.250   -98.53732461  1.434158e-15  3.225780e-01  1.783691e-02  9.612042e-01         8         0
+En(s=20.00) = -115.58941157658872
+En(s=22.00) = -115.59005009829372
+En(s=24.00) = -115.59053585523239
+En(s=26.00) = -115.59090612017572
+En(s=28.00) = -115.59119059890065
+En(s=30.00) = -115.59141156412417
+En(s=32.00) = -115.59158519330136
+En(s=34.00) = -115.5917231371848
+En(s=36.00) = -115.59183382182599
+En(s=38.00) = -115.59192338478856
+En(s=40.00) = -115.59199637463549
+En(s=42.00) = -115.59205621256429
+En(s=44.00) = -115.59210550704483
+En(s=46.00) = -115.59214628307963
+En(s=48.00) = -115.5921801241048
+En(s=50.00) = -115.59220827982577
+En(s=52.00) = -115.59223176940597
+En(s=54.00) = -115.59225138975646
+En(s=56.00) = -115.59226781256928
+En(s=58.00) = -115.59228157521707
+En(s=60.00) = -115.59229311526096
+En(s=62.00) = -115.59230280609545
+En(s=64.00) = -115.59231094757257
+En(s=66.00) = -115.59231779040032
+En(s=68.00) = -115.59232354157281
+En(s=70.00) = -115.59232838651526
+En(s=72.00) = -115.59233246563747
+En(s=74.00) = -115.59233589782345
+En(s=76.00) = -115.59233879022594
+En(s=78.00) = -115.59234122479133
+En(s=80.00) = -115.59234327558839
+En(s=82.00) = -115.59234500466802
+En(s=84.00) = -115.59234646306513
+En(s=86.00) = -115.5923476919155
+En(s=88.00) = -115.59234872713061
+En(s=90.00) = -115.59234960015787
+En(s=92.00) = -115.59235033318673
+En(s=94.00) = -115.59235095705175
+En(s=96.00) = -115.59235147936101
+En(s=98.00) = -115.59235191965922
+En(s=100.00) = -115.59235229010555
+En(s=102.00) = -115.5923526016687
+En(s=104.00) = -115.59235286991513
+En(s=106.00) = -115.59235309335696
+En(s=108.00) = -115.59235327709992
+En(s=109.50) = -115.59235340371545
+Operator:Rp2
+   HF point proton radius     2.168022 charge radius     2.321298 => HF+PT     2.335145
+s=20.00(Net): point proton radius     2.223776 charge radius     2.373455
+s=22.00(Net): point proton radius     2.224005 charge radius     2.373669
+s=24.00(Net): point proton radius     2.224186 charge radius     2.373838
+s=26.00(Net): point proton radius     2.224329 charge radius     2.373973
+s=28.00(Net): point proton radius     2.224444 charge radius     2.374080
+s=30.00(Net): point proton radius     2.224536 charge radius     2.374166
+s=32.00(Net): point proton radius     2.224611 charge radius     2.374237
+s=34.00(Net): point proton radius     2.224672 charge radius     2.374294
+s=36.00(Net): point proton radius     2.224723 charge radius     2.374342
+s=38.00(Net): point proton radius     2.224765 charge radius     2.374381
+s=40.00(Net): point proton radius     2.224800 charge radius     2.374414
+s=42.00(Net): point proton radius     2.224829 charge radius     2.374441
+s=44.00(Net): point proton radius     2.224853 charge radius     2.374464
+s=46.00(Net): point proton radius     2.224874 charge radius     2.374483
+s=48.00(Net): point proton radius     2.224891 charge radius     2.374499
+s=50.00(Net): point proton radius     2.224905 charge radius     2.374513
+s=52.00(Net): point proton radius     2.224917 charge radius     2.374524
+s=54.00(Net): point proton radius     2.224928 charge radius     2.374533
+s=56.00(Net): point proton radius     2.224936 charge radius     2.374542
+s=58.00(Net): point proton radius     2.224943 charge radius     2.374548
+s=60.00(Net): point proton radius     2.224950 charge radius     2.374554
+s=62.00(Net): point proton radius     2.224955 charge radius     2.374559
+s=64.00(Net): point proton radius     2.224959 charge radius     2.374563
+s=66.00(Net): point proton radius     2.224963 charge radius     2.374566
+s=68.00(Net): point proton radius     2.224966 charge radius     2.374569
+s=70.00(Net): point proton radius     2.224968 charge radius     2.374572
+s=72.00(Net): point proton radius     2.224971 charge radius     2.374574
+s=74.00(Net): point proton radius     2.224972 charge radius     2.374575
+s=76.00(Net): point proton radius     2.224974 charge radius     2.374577
+s=78.00(Net): point proton radius     2.224975 charge radius     2.374578
+s=80.00(Net): point proton radius     2.224976 charge radius     2.374579
+s=82.00(Net): point proton radius     2.224977 charge radius     2.374580
+s=84.00(Net): point proton radius     2.224978 charge radius     2.374581
+s=86.00(Net): point proton radius     2.224979 charge radius     2.374581
+s=88.00(Net): point proton radius     2.224979 charge radius     2.374582
+s=90.00(Net): point proton radius     2.224980 charge radius     2.374582
+s=92.00(Net): point proton radius     2.224980 charge radius     2.374583
+s=94.00(Net): point proton radius     2.224980 charge radius     2.374583
+s=96.00(Net): point proton radius     2.224981 charge radius     2.374583
+s=98.00(Net): point proton radius     2.224981 charge radius     2.374583
+s=100.00(Net): point proton radius     2.224981 charge radius     2.374584
+s=102.00(Net): point proton radius     2.224981 charge radius     2.374584
+s=104.00(Net): point proton radius     2.224981 charge radius     2.374584
+s=106.00(Net): point proton radius     2.224982 charge radius     2.374584
+s=108.00(Net): point proton radius     2.224982 charge radius     2.374584
+s=109.50(Net): point proton radius     2.224982 charge radius     2.374584
+IMSRG point proton radius     2.224982 charge radius     2.374584
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax8.snt.bin
+size of dWS (jmax 17 lmax 40 e2max 16 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   17.83 MB   d6j_lj    4.46 MB
+  d9j_lsj    4.29 MB  dictHOB   21.05 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -518.8376  = E1b   1241.91  + E2b  -1760.74   (   -180.51 -1289.13  -291.10)
+EMP2    -74.15160 1b    -0.000 pp    -5.714 pn   -62.747 nn    -5.691
+EMP3      2.28200 pp     0.804 hh    -3.461 ph     4.939
+E_HF   -518.83764  E_MBPT(3) =    -590.7072  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -518.83764275  0.000000e+00  0.000000e+00  3.395523e-15  2.332447e+00         0         0
+     1    0.250  -549.07451114  8.488807e-16  5.831117e-01  2.244604e-02  1.715653e+00         8         0
+En(s=20.00) = -591.5782341947828
+En(s=22.00) = -591.5789649539237
+En(s=24.00) = -591.5795528859147
+En(s=26.00) = -591.5800262127482
+En(s=28.00) = -591.5804079110864
+En(s=30.00) = -591.5807163747778
+En(s=32.00) = -591.5809662009399
+En(s=34.00) = -591.5811689639204
+En(s=36.00) = -591.581333854712
+En(s=38.00) = -591.5814681766047
+En(s=40.00) = -591.5815777581851
+En(s=42.00) = -591.5816672734557
+En(s=44.00) = -591.5817404717528
+En(s=46.00) = -591.5818003865523
+En(s=48.00) = -591.5818494622106
+En(s=50.00) = -591.5818896892315
+En(s=52.00) = -591.5819226759752
+En(s=54.00) = -591.5819497385609
+En(s=56.00) = -591.5819719521689
+En(s=58.00) = -591.581990188872
+En(s=60.00) = -591.5820051637294
+En(s=62.00) = -591.582017464197
+En(s=64.00) = -591.5820275675104
+En(s=66.00) = -591.5820358683181
+En(s=68.00) = -591.5820426895453
+En(s=70.00) = -591.5820482965958
+En(s=72.00) = -591.5820529005318
+En(s=74.00) = -591.5820566860469
+En(s=76.00) = -591.5820598006873
+En(s=78.00) = -591.5820623593744
+En(s=80.00) = -591.582064460588
+En(s=82.00) = -591.5820661906263
+En(s=84.00) = -591.5820676093887
+En(s=86.00) = -591.5820687777112
+En(s=88.00) = -591.5820697374587
+En(s=90.00) = -591.5820705297309
+En(s=92.00) = -591.5820711770066
+En(s=94.00) = -591.5820717099198
+En(s=96.00) = -591.5820721470709
+En(s=98.00) = -591.5820725073592
+En(s=100.00) = -591.58207280486
+En(s=102.00) = -591.5820730465637
+En(s=104.00) = -591.582073246958
+En(s=106.00) = -591.5820734133165
+En(s=108.00) = -591.5820735501418
+En(s=108.25) = -591.5820735635583
+Operator:Rp2
+   HF point proton radius     2.425706 charge radius     2.563622 => HF+PT     2.576142
+s=20.00(Net): point proton radius     2.455179 charge radius     2.591527
+s=22.00(Net): point proton radius     2.455272 charge radius     2.591615
+s=24.00(Net): point proton radius     2.455349 charge radius     2.591688
+s=26.00(Net): point proton radius     2.455413 charge radius     2.591748
+s=28.00(Net): point proton radius     2.455466 charge radius     2.591798
+s=30.00(Net): point proton radius     2.455509 charge radius     2.591839
+s=32.00(Net): point proton radius     2.455545 charge radius     2.591873
+s=34.00(Net): point proton radius     2.455575 charge radius     2.591901
+s=36.00(Net): point proton radius     2.455599 charge radius     2.591924
+s=38.00(Net): point proton radius     2.455619 charge radius     2.591943
+s=40.00(Net): point proton radius     2.455635 charge radius     2.591959
+s=42.00(Net): point proton radius     2.455649 charge radius     2.591972
+s=44.00(Net): point proton radius     2.455660 charge radius     2.591982
+s=46.00(Net): point proton radius     2.455669 charge radius     2.591991
+s=48.00(Net): point proton radius     2.455677 charge radius     2.591998
+s=50.00(Net): point proton radius     2.455683 charge radius     2.592004
+s=52.00(Net): point proton radius     2.455688 charge radius     2.592009
+s=54.00(Net): point proton radius     2.455692 charge radius     2.592013
+s=56.00(Net): point proton radius     2.455696 charge radius     2.592016
+s=58.00(Net): point proton radius     2.455698 charge radius     2.592019
+s=60.00(Net): point proton radius     2.455701 charge radius     2.592021
+s=62.00(Net): point proton radius     2.455703 charge radius     2.592023
+s=64.00(Net): point proton radius     2.455704 charge radius     2.592024
+s=66.00(Net): point proton radius     2.455706 charge radius     2.592025
+s=68.00(Net): point proton radius     2.455707 charge radius     2.592026
+s=70.00(Net): point proton radius     2.455707 charge radius     2.592027
+s=72.00(Net): point proton radius     2.455708 charge radius     2.592028
+s=74.00(Net): point proton radius     2.455709 charge radius     2.592029
+s=76.00(Net): point proton radius     2.455709 charge radius     2.592029
+s=78.00(Net): point proton radius     2.455710 charge radius     2.592029
+s=80.00(Net): point proton radius     2.455710 charge radius     2.592030
+s=82.00(Net): point proton radius     2.455710 charge radius     2.592030
+s=84.00(Net): point proton radius     2.455710 charge radius     2.592030
+s=86.00(Net): point proton radius     2.455711 charge radius     2.592030
+s=88.00(Net): point proton radius     2.455711 charge radius     2.592030
+s=90.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=92.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=94.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=96.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=98.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=100.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=102.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=104.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=106.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=108.00(Net): point proton radius     2.455711 charge radius     2.592031
+s=108.25(Net): point proton radius     2.455711 charge radius     2.592031
+IMSRG point proton radius     2.455711 charge radius     2.592031
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax8.snt.bin
+size of dWS (jmax 17 lmax 40 e2max 16 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   17.83 MB   d6j_lj    4.46 MB
+  d9j_lsj    4.29 MB  dictHOB   21.05 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -244.9453  = E1b    962.42  + E2b  -1207.37   (    -68.18  -976.86  -162.33)
+EMP2    -78.23499 1b    -0.000 pp   -11.424 pn   -55.218 nn   -11.593
+EMP3      5.50192 pp     2.426 hh    -2.304 ph     5.379
+E_HF   -244.94533  E_MBPT(3) =    -317.6784  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -244.94533179  0.000000e+00  0.000000e+00  7.705338e-15  2.534603e+00         0         0
+     1    0.250  -276.09962761  1.926334e-15  6.336508e-01  2.844780e-02  1.848011e+00         9         0
+En(s=20.00) = -321.3232168292563
+En(s=22.00) = -321.3252330055055
+En(s=24.00) = -321.32671097165525
+En(s=26.00) = -321.3278087433901
+En(s=28.00) = -321.328638395476
+En(s=30.00) = -321.32927653177126
+En(s=32.00) = -321.3297751606794
+En(s=34.00) = -321.33016999062096
+En(s=36.00) = -321.33048603172125
+En(s=38.00) = -321.3307412038261
+En(s=40.00) = -321.3309486540028
+En(s=42.00) = -321.33111822866755
+En(s=44.00) = -321.3312574349165
+En(s=46.00) = -321.3313721198286
+En(s=48.00) = -321.33146684624097
+En(s=50.00) = -321.331545271896
+En(s=52.00) = -321.3316103088862
+En(s=54.00) = -321.33166433149137
+En(s=56.00) = -321.33170924350844
+En(s=58.00) = -321.33174662121434
+En(s=60.00) = -321.33177775755166
+En(s=62.00) = -321.33180370702036
+En(s=64.00) = -321.3318253535357
+En(s=66.00) = -321.33184340033756
+En(s=68.00) = -321.3318584729793
+En(s=70.00) = -321.33187105518886
+En(s=72.00) = -321.3318815503313
+En(s=74.00) = -321.331890324868
+En(s=76.00) = -321.3318976535058
+En(s=78.00) = -321.3319037831679
+En(s=80.00) = -321.33190889379443
+En(s=82.00) = -321.33191316907784
+En(s=84.00) = -321.33191673863234
+En(s=86.00) = -321.33191972858845
+En(s=88.00) = -321.33192222261385
+En(s=90.00) = -321.3319243052334
+En(s=92.00) = -321.3319260484508
+En(s=93.50) = -321.3319271703594
+Operator:Rp2
+   HF point proton radius     2.746706 charge radius     2.869234 => HF+PT     2.883854
+s=20.00(Net): point proton radius     2.799727 charge radius     2.920030
+s=22.00(Net): point proton radius     2.799915 charge radius     2.920210
+s=24.00(Net): point proton radius     2.800054 charge radius     2.920344
+s=26.00(Net): point proton radius     2.800158 charge radius     2.920444
+s=28.00(Net): point proton radius     2.800237 charge radius     2.920520
+s=30.00(Net): point proton radius     2.800299 charge radius     2.920579
+s=32.00(Net): point proton radius     2.800347 charge radius     2.920625
+s=34.00(Net): point proton radius     2.800386 charge radius     2.920662
+s=36.00(Net): point proton radius     2.800417 charge radius     2.920692
+s=38.00(Net): point proton radius     2.800442 charge radius     2.920716
+s=40.00(Net): point proton radius     2.800462 charge radius     2.920736
+s=42.00(Net): point proton radius     2.800479 charge radius     2.920752
+s=44.00(Net): point proton radius     2.800493 charge radius     2.920765
+s=46.00(Net): point proton radius     2.800505 charge radius     2.920776
+s=48.00(Net): point proton radius     2.800514 charge radius     2.920785
+s=50.00(Net): point proton radius     2.800522 charge radius     2.920793
+s=52.00(Net): point proton radius     2.800529 charge radius     2.920799
+s=54.00(Net): point proton radius     2.800534 charge radius     2.920804
+s=56.00(Net): point proton radius     2.800539 charge radius     2.920809
+s=58.00(Net): point proton radius     2.800543 charge radius     2.920812
+s=60.00(Net): point proton radius     2.800546 charge radius     2.920815
+s=62.00(Net): point proton radius     2.800548 charge radius     2.920818
+s=64.00(Net): point proton radius     2.800551 charge radius     2.920820
+s=66.00(Net): point proton radius     2.800552 charge radius     2.920822
+s=68.00(Net): point proton radius     2.800554 charge radius     2.920823
+s=70.00(Net): point proton radius     2.800555 charge radius     2.920825
+s=72.00(Net): point proton radius     2.800556 charge radius     2.920826
+s=74.00(Net): point proton radius     2.800557 charge radius     2.920826
+s=76.00(Net): point proton radius     2.800558 charge radius     2.920827
+s=78.00(Net): point proton radius     2.800559 charge radius     2.920828
+s=80.00(Net): point proton radius     2.800559 charge radius     2.920828
+s=82.00(Net): point proton radius     2.800560 charge radius     2.920829
+s=84.00(Net): point proton radius     2.800560 charge radius     2.920829
+s=86.00(Net): point proton radius     2.800560 charge radius     2.920829
+s=88.00(Net): point proton radius     2.800561 charge radius     2.920830
+s=90.00(Net): point proton radius     2.800561 charge radius     2.920830
+s=92.00(Net): point proton radius     2.800561 charge radius     2.920830
+s=93.50(Net): point proton radius     2.800561 charge radius     2.920830
+IMSRG point proton radius     2.800561 charge radius     2.920830
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax10.snt.bin
+size of dWS (jmax 21 lmax 42 e2max 20 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   71.30 MB   d6j_lj    8.91 MB
+  d9j_lsj    6.41 MB  dictHOB  109.26 MB
+target: O16 Ref. => Z=8 N=8 E:    -133.6148  = E1b    361.69  + E2b   -495.30   (    -55.00  -366.21   -74.09)
+EMP2    -31.99678 1b    -0.000 pp    -1.919 pn   -28.161 nn    -1.917
+EMP3      0.56311 pp     0.608 hh    -2.186 ph     2.141
+E_HF   -133.61478  E_MBPT(3) =    -165.0484  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -133.61477700  0.000000e+00  0.000000e+00  8.234155e-15  1.374600e+00         0         0
+     1    0.250  -146.77892977  2.058539e-15  3.436501e-01  1.232511e-02  1.016600e+00         8         0
+En(s=20.00) = -165.53090666866987
+En(s=22.00) = -165.53170203109664
+En(s=24.00) = -165.53236805169337
+En(s=26.00) = -165.53292339781805
+En(s=28.00) = -165.53338543333382
+En(s=30.00) = -165.53376951598915
+En(s=32.00) = -165.53408881135044
+En(s=34.00) = -165.53435438812463
+En(s=36.00) = -165.5345754572698
+En(s=38.00) = -165.5347596339575
+En(s=40.00) = -165.53491321516478
+En(s=42.00) = -165.53504138369246
+En(s=44.00) = -165.53514842260122
+En(s=46.00) = -165.53523787364009
+En(s=48.00) = -165.53531266692823
+En(s=50.00) = -165.53537523291453
+En(s=52.00) = -165.5354275954996
+En(s=54.00) = -165.53547143134134
+En(s=56.00) = -165.53550814141127
+En(s=58.00) = -165.53553888935912
+En(s=60.00) = -165.535564648482
+En(s=62.00) = -165.53558623319384
+En(s=64.00) = -165.5356043207465
+En(s=66.00) = -165.53561948564447
+En(s=68.00) = -165.53563219354902
+En(s=70.00) = -165.53564284689605
+En(s=72.00) = -165.53565177964532
+En(s=74.00) = -165.53565926693582
+En(s=76.00) = -165.53566554691713
+En(s=78.00) = -165.5356708124629
+En(s=80.00) = -165.53567522869383
+En(s=82.00) = -165.53567893247913
+En(s=84.00) = -165.53568203440045
+En(s=86.00) = -165.53568463750855
+En(s=88.00) = -165.53568681970827
+En(s=90.00) = -165.53568865102372
+En(s=92.00) = -165.53569018678212
+En(s=94.00) = -165.5356914740315
+En(s=96.00) = -165.53569255578984
+En(s=98.00) = -165.53569345982663
+En(s=100.00) = -165.53569421899104
+En(s=102.00) = -165.5356948583971
+En(s=104.00) = -165.5356953908943
+En(s=106.00) = -165.5356958393275
+En(s=108.00) = -165.53569621379594
+En(s=110.00) = -165.53569653295085
+En(s=112.00) = -165.53569679594634
+En(s=114.00) = -165.53569701624724
+En(s=116.00) = -165.53569720343458
+En(s=118.00) = -165.53569735675404
+En(s=120.00) = -165.53569748865092
+Operator:Rp2
+   HF point proton radius     2.059566 charge radius     2.220342 => HF+PT     2.229936
+s=20.00(Net): point proton radius     2.088185 charge radius     2.246914
+s=22.00(Net): point proton radius     2.088434 charge radius     2.247146
+s=24.00(Net): point proton radius     2.088648 charge radius     2.247344
+s=26.00(Net): point proton radius     2.088830 charge radius     2.247513
+s=28.00(Net): point proton radius     2.088984 charge radius     2.247657
+s=30.00(Net): point proton radius     2.089114 charge radius     2.247778
+s=32.00(Net): point proton radius     2.089224 charge radius     2.247880
+s=34.00(Net): point proton radius     2.089316 charge radius     2.247965
+s=36.00(Net): point proton radius     2.089394 charge radius     2.248037
+s=38.00(Net): point proton radius     2.089459 charge radius     2.248098
+s=40.00(Net): point proton radius     2.089514 charge radius     2.248149
+s=42.00(Net): point proton radius     2.089559 charge radius     2.248191
+s=44.00(Net): point proton radius     2.089598 charge radius     2.248227
+s=46.00(Net): point proton radius     2.089630 charge radius     2.248257
+s=48.00(Net): point proton radius     2.089658 charge radius     2.248283
+s=50.00(Net): point proton radius     2.089680 charge radius     2.248304
+s=52.00(Net): point proton radius     2.089699 charge radius     2.248322
+s=54.00(Net): point proton radius     2.089715 charge radius     2.248336
+s=56.00(Net): point proton radius     2.089729 charge radius     2.248349
+s=58.00(Net): point proton radius     2.089740 charge radius     2.248359
+s=60.00(Net): point proton radius     2.089750 charge radius     2.248368
+s=62.00(Net): point proton radius     2.089758 charge radius     2.248376
+s=64.00(Net): point proton radius     2.089764 charge radius     2.248382
+s=66.00(Net): point proton radius     2.089770 charge radius     2.248387
+s=68.00(Net): point proton radius     2.089774 charge radius     2.248391
+s=70.00(Net): point proton radius     2.089778 charge radius     2.248395
+s=72.00(Net): point proton radius     2.089782 charge radius     2.248398
+s=74.00(Net): point proton radius     2.089784 charge radius     2.248401
+s=76.00(Net): point proton radius     2.089787 charge radius     2.248403
+s=78.00(Net): point proton radius     2.089789 charge radius     2.248405
+s=80.00(Net): point proton radius     2.089790 charge radius     2.248406
+s=82.00(Net): point proton radius     2.089792 charge radius     2.248407
+s=84.00(Net): point proton radius     2.089793 charge radius     2.248408
+s=86.00(Net): point proton radius     2.089794 charge radius     2.248409
+s=88.00(Net): point proton radius     2.089795 charge radius     2.248410
+s=90.00(Net): point proton radius     2.089795 charge radius     2.248411
+s=92.00(Net): point proton radius     2.089796 charge radius     2.248411
+s=94.00(Net): point proton radius     2.089796 charge radius     2.248412
+s=96.00(Net): point proton radius     2.089797 charge radius     2.248412
+s=98.00(Net): point proton radius     2.089797 charge radius     2.248412
+s=100.00(Net): point proton radius     2.089797 charge radius     2.248413
+s=102.00(Net): point proton radius     2.089798 charge radius     2.248413
+s=104.00(Net): point proton radius     2.089798 charge radius     2.248413
+s=106.00(Net): point proton radius     2.089798 charge radius     2.248413
+s=108.00(Net): point proton radius     2.089798 charge radius     2.248413
+s=110.00(Net): point proton radius     2.089798 charge radius     2.248413
+s=112.00(Net): point proton radius     2.089798 charge radius     2.248413
+s=114.00(Net): point proton radius     2.089798 charge radius     2.248414
+s=116.00(Net): point proton radius     2.089798 charge radius     2.248414
+s=118.00(Net): point proton radius     2.089799 charge radius     2.248414
+s=120.00(Net): point proton radius     2.089799 charge radius     2.248414
+IMSRG point proton radius     2.089799 charge radius     2.248414
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax10.snt.bin
+size of dWS (jmax 21 lmax 42 e2max 20 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   71.30 MB   d6j_lj    8.91 MB
+  d9j_lsj    6.41 MB  dictHOB  109.26 MB
+target: O16 Ref. => Z=8 N=8 E:     -87.9139  = E1b    324.71  + E2b   -412.62   (    -35.35  -324.25   -53.02)
+EMP2    -26.79149 1b    -0.000 pp    -3.608 pn   -19.524 nn    -3.660
+EMP3      1.03198 pp     1.197 hh    -1.257 ph     1.092
+E_HF    -87.91391  E_MBPT(3) =    -113.6734  Eexp:     -127.619
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000   -87.91390853  0.000000e+00  0.000000e+00  2.027502e-15  1.295182e+00         0         0
+     1    0.250   -98.70347368  5.068755e-16  3.237954e-01  1.758685e-02  9.644586e-01         8         0
+En(s=20.00) = -115.90400036355872
+En(s=22.00) = -115.90474979548166
+En(s=24.00) = -115.90536388573294
+En(s=26.00) = -115.90586571696436
+En(s=28.00) = -115.90627564869737
+En(s=30.00) = -115.90661085111108
+En(s=32.00) = -115.90688543522589
+En(s=34.00) = -115.9071108252955
+En(s=36.00) = -115.90729621747398
+En(s=38.00) = -115.90744901013453
+En(s=40.00) = -115.9075751477413
+En(s=42.00) = -115.9076794396366
+En(s=44.00) = -115.90776578168753
+En(s=46.00) = -115.90783733636786
+En(s=48.00) = -115.90789669384057
+En(s=50.00) = -115.90794596909737
+En(s=52.00) = -115.90798689957883
+En(s=54.00) = -115.90802091446058
+En(s=56.00) = -115.9080491991045
+En(s=58.00) = -115.90807272602156
+En(s=60.00) = -115.90809230135766
+En(s=62.00) = -115.90810859252258
+En(s=64.00) = -115.90812215321756
+En(s=66.00) = -115.90813344433703
+En(s=68.00) = -115.908142841227
+En(s=70.00) = -115.90815066886513
+En(s=72.00) = -115.90815718864206
+En(s=74.00) = -115.90816262232141
+En(s=76.00) = -115.90816714299699
+En(s=78.00) = -115.90817091277167
+En(s=80.00) = -115.90817405202473
+En(s=82.00) = -115.90817666714766
+En(s=84.00) = -115.90817884444722
+En(s=86.00) = -115.90818066055353
+En(s=88.00) = -115.90818217344648
+En(s=90.00) = -115.90818343223148
+En(s=92.00) = -115.90818448112971
+En(s=94.00) = -115.90818535868954
+En(s=96.00) = -115.90818608919585
+En(s=98.00) = -115.90818669443277
+En(s=100.00) = -115.90818720060099
+En(s=102.00) = -115.90818762347524
+En(s=104.00) = -115.90818797034973
+En(s=106.00) = -115.90818826584963
+En(s=108.00) = -115.90818850983734
+En(s=109.75) = -115.90818868984263
+Operator:Rp2
+   HF point proton radius     2.170393 charge radius     2.323513 => HF+PT     2.335616
+s=20.00(Net): point proton radius     2.225506 charge radius     2.375076
+s=22.00(Net): point proton radius     2.225765 charge radius     2.375318
+s=24.00(Net): point proton radius     2.225982 charge radius     2.375521
+s=26.00(Net): point proton radius     2.226162 charge radius     2.375690
+s=28.00(Net): point proton radius     2.226312 charge radius     2.375831
+s=30.00(Net): point proton radius     2.226436 charge radius     2.375947
+s=32.00(Net): point proton radius     2.226539 charge radius     2.376044
+s=34.00(Net): point proton radius     2.226625 charge radius     2.376124
+s=36.00(Net): point proton radius     2.226696 charge radius     2.376190
+s=38.00(Net): point proton radius     2.226754 charge radius     2.376245
+s=40.00(Net): point proton radius     2.226803 charge radius     2.376291
+s=42.00(Net): point proton radius     2.226844 charge radius     2.376329
+s=44.00(Net): point proton radius     2.226878 charge radius     2.376361
+s=46.00(Net): point proton radius     2.226906 charge radius     2.376387
+s=48.00(Net): point proton radius     2.226929 charge radius     2.376409
+s=50.00(Net): point proton radius     2.226949 charge radius     2.376427
+s=52.00(Net): point proton radius     2.226965 charge radius     2.376442
+s=54.00(Net): point proton radius     2.226978 charge radius     2.376455
+s=56.00(Net): point proton radius     2.226989 charge radius     2.376465
+s=58.00(Net): point proton radius     2.226999 charge radius     2.376474
+s=60.00(Net): point proton radius     2.227006 charge radius     2.376481
+s=62.00(Net): point proton radius     2.227013 charge radius     2.376488
+s=64.00(Net): point proton radius     2.227018 charge radius     2.376493
+s=66.00(Net): point proton radius     2.227023 charge radius     2.376497
+s=68.00(Net): point proton radius     2.227027 charge radius     2.376500
+s=70.00(Net): point proton radius     2.227030 charge radius     2.376503
+s=72.00(Net): point proton radius     2.227032 charge radius     2.376506
+s=74.00(Net): point proton radius     2.227034 charge radius     2.376508
+s=76.00(Net): point proton radius     2.227036 charge radius     2.376509
+s=78.00(Net): point proton radius     2.227038 charge radius     2.376511
+s=80.00(Net): point proton radius     2.227039 charge radius     2.376512
+s=82.00(Net): point proton radius     2.227040 charge radius     2.376513
+s=84.00(Net): point proton radius     2.227041 charge radius     2.376514
+s=86.00(Net): point proton radius     2.227042 charge radius     2.376514
+s=88.00(Net): point proton radius     2.227042 charge radius     2.376515
+s=90.00(Net): point proton radius     2.227043 charge radius     2.376515
+s=92.00(Net): point proton radius     2.227043 charge radius     2.376516
+s=94.00(Net): point proton radius     2.227044 charge radius     2.376516
+s=96.00(Net): point proton radius     2.227044 charge radius     2.376516
+s=98.00(Net): point proton radius     2.227044 charge radius     2.376517
+s=100.00(Net): point proton radius     2.227044 charge radius     2.376517
+s=102.00(Net): point proton radius     2.227044 charge radius     2.376517
+s=104.00(Net): point proton radius     2.227045 charge radius     2.376517
+s=106.00(Net): point proton radius     2.227045 charge radius     2.376517
+s=108.00(Net): point proton radius     2.227045 charge radius     2.376517
+s=109.75(Net): point proton radius     2.227045 charge radius     2.376517
+IMSRG point proton radius     2.227045 charge radius     2.376517
+#############################
+sntf tbme_em500n3lo_srg2.0hw20emax10.snt.bin
+size of dWS (jmax 21 lmax 42 e2max 20 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   71.30 MB   d6j_lj    8.91 MB
+  d9j_lsj    6.41 MB  dictHOB  109.26 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -518.9788  = E1b   1241.54  + E2b  -1760.52   (   -180.48 -1288.95  -291.09)
+EMP2    -76.36489 1b    -0.000 pp    -5.971 pn   -64.432 nn    -5.962
+EMP3      2.13245 pp     0.968 hh    -3.491 ph     4.655
+E_HF   -518.97877  E_MBPT(3) =    -593.2112  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -518.97876755  0.000000e+00  0.000000e+00  1.991019e-14  2.347272e+00         0         0
+     1    0.250  -550.19655067  4.977547e-15  5.868179e-01  2.017485e-02  1.726248e+00         8         0
+En(s=20.00) = -594.021530612726
+En(s=22.00) = -594.0220614805072
+En(s=24.00) = -594.0225001034014
+En(s=26.00) = -594.0228615437138
+En(s=28.00) = -594.0231590431111
+En(s=30.00) = -594.0234038663772
+En(s=32.00) = -594.0236054225693
+En(s=34.00) = -594.0237714807585
+En(s=36.00) = -594.0239084033637
+En(s=38.00) = -594.024021404935
+En(s=40.00) = -594.0241147464319
+En(s=42.00) = -594.0241919040028
+En(s=44.00) = -594.0242557305922
+En(s=46.00) = -594.0243085668563
+En(s=48.00) = -594.0243523186344
+En(s=50.00) = -594.0243885757119
+En(s=52.00) = -594.024418624146
+En(s=54.00) = -594.0244435408849
+En(s=56.00) = -594.0244642067495
+En(s=58.00) = -594.0244813512264
+En(s=60.00) = -594.0244955761469
+En(s=62.00) = -594.0245073833405
+En(s=64.00) = -594.0245171816019
+En(s=66.00) = -594.0245253169417
+En(s=68.00) = -594.0245320683238
+En(s=70.00) = -594.0245376765638
+En(s=72.00) = -594.0245423296955
+En(s=74.00) = -594.0245461962021
+En(s=76.00) = -594.024549406012
+En(s=78.00) = -594.0245520721953
+En(s=80.00) = -594.0245542825608
+En(s=82.00) = -594.0245561226467
+En(s=84.00) = -594.0245576496001
+En(s=86.00) = -594.0245589179297
+En(s=88.00) = -594.0245599697716
+En(s=90.00) = -594.0245608456423
+En(s=92.00) = -594.0245615705134
+En(s=94.00) = -594.0245621742439
+En(s=96.00) = -594.0245626770842
+En(s=98.00) = -594.024563093965
+En(s=100.00) = -594.0245634385507
+En(s=102.00) = -594.0245637258068
+En(s=104.00) = -594.0245639637415
+Operator:Rp2
+   HF point proton radius     2.426640 charge radius     2.564505 => HF+PT     2.574136
+s=20.00(Net): point proton radius     2.452544 charge radius     2.589030
+s=22.00(Net): point proton radius     2.452620 charge radius     2.589103
+s=24.00(Net): point proton radius     2.452686 charge radius     2.589165
+s=26.00(Net): point proton radius     2.452741 charge radius     2.589217
+s=28.00(Net): point proton radius     2.452788 charge radius     2.589261
+s=30.00(Net): point proton radius     2.452827 charge radius     2.589298
+s=32.00(Net): point proton radius     2.452860 charge radius     2.589329
+s=34.00(Net): point proton radius     2.452887 charge radius     2.589355
+s=36.00(Net): point proton radius     2.452910 charge radius     2.589377
+s=38.00(Net): point proton radius     2.452929 charge radius     2.589395
+s=40.00(Net): point proton radius     2.452945 charge radius     2.589410
+s=42.00(Net): point proton radius     2.452958 charge radius     2.589423
+s=44.00(Net): point proton radius     2.452969 charge radius     2.589433
+s=46.00(Net): point proton radius     2.452978 charge radius     2.589442
+s=48.00(Net): point proton radius     2.452986 charge radius     2.589449
+s=50.00(Net): point proton radius     2.452992 charge radius     2.589455
+s=52.00(Net): point proton radius     2.452998 charge radius     2.589460
+s=54.00(Net): point proton radius     2.453002 charge radius     2.589464
+s=56.00(Net): point proton radius     2.453006 charge radius     2.589468
+s=58.00(Net): point proton radius     2.453009 charge radius     2.589471
+s=60.00(Net): point proton radius     2.453011 charge radius     2.589473
+s=62.00(Net): point proton radius     2.453013 charge radius     2.589475
+s=64.00(Net): point proton radius     2.453015 charge radius     2.589477
+s=66.00(Net): point proton radius     2.453016 charge radius     2.589478
+s=68.00(Net): point proton radius     2.453018 charge radius     2.589479
+s=70.00(Net): point proton radius     2.453019 charge radius     2.589480
+s=72.00(Net): point proton radius     2.453019 charge radius     2.589481
+s=74.00(Net): point proton radius     2.453020 charge radius     2.589481
+s=76.00(Net): point proton radius     2.453021 charge radius     2.589482
+s=78.00(Net): point proton radius     2.453021 charge radius     2.589482
+s=80.00(Net): point proton radius     2.453022 charge radius     2.589483
+s=82.00(Net): point proton radius     2.453022 charge radius     2.589483
+s=84.00(Net): point proton radius     2.453022 charge radius     2.589483
+s=86.00(Net): point proton radius     2.453022 charge radius     2.589484
+s=88.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=90.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=92.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=94.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=96.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=98.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=100.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=102.00(Net): point proton radius     2.453023 charge radius     2.589484
+s=104.00(Net): point proton radius     2.453023 charge radius     2.589484
+IMSRG point proton radius     2.453023 charge radius     2.589484
+#############################
+sntf tbme_emn500n4lo_2n3n_srg2.0hw20emax10.snt.bin
+size of dWS (jmax 21 lmax 42 e2max 20 Nnmax 20):
+     dtri    4.46 MB    dcgm0    1.11 MB  d6j_int   71.30 MB   d6j_lj    8.91 MB
+  d9j_lsj    6.41 MB  dictHOB  109.26 MB
+target: Ca40 Ref. => Z=20 N=20 E:    -245.3524  = E1b    959.12  + E2b  -1204.47   (    -67.98  -974.42  -162.07)
+EMP2    -79.81697 1b    -0.000 pp   -11.578 pn   -56.489 nn   -11.750
+EMP3      5.42481 pp     2.415 hh    -2.338 ph     5.347
+E_HF   -245.35239  E_MBPT(3) =    -319.7445  Eexp:     -342.052
+
+parameters in ann_sample_params.jl will be used.
+ step:        s             E0   ||Omega_1||   ||Omega_2||     ||Eta_1||     ||Eta_2||    Ncomm.  nwritten
+     0    0.000  -245.35239413  0.000000e+00  0.000000e+00  1.213057e-14  2.549504e+00         0         0
+     1    0.250  -277.21097834  3.032643e-15  6.373759e-01  2.808034e-02  1.858705e+00         9         0
+En(s=20.00) = -323.35201520306026
+En(s=22.00) = -323.3540582583726
+En(s=24.00) = -323.35559533287045
+En(s=26.00) = -323.35676008445756
+En(s=28.00) = -323.3576536249348
+En(s=30.00) = -323.3583485653955
+En(s=32.00) = -323.3588960680516
+En(s=34.00) = -323.3593323018748
+En(s=36.00) = -323.35968312676795
+En(s=38.00) = -323.3599674097068
+En(s=40.00) = -323.3601991714403
+En(s=42.00) = -323.3603890182461
+En(s=44.00) = -323.3605451265817
+En(s=46.00) = -323.36067388788115
+En(s=48.00) = -323.36078034654224
+En(s=50.00) = -323.36086853589154
+En(s=52.00) = -323.36094171034927
+En(s=54.00) = -323.3610024970187
+En(s=56.00) = -323.3610530524806
+En(s=58.00) = -323.3610951258038
+En(s=60.00) = -323.36113016135835
+En(s=62.00) = -323.3611593730361
+En(s=64.00) = -323.3611837155085
+En(s=66.00) = -323.36120401867004
+En(s=68.00) = -323.36122095721703
+En(s=70.00) = -323.36123510020377
+En(s=72.00) = -323.3612468996866
+En(s=74.00) = -323.36125675045014
+En(s=76.00) = -323.3612649748973
+En(s=78.00) = -323.36127184417785
+En(s=80.00) = -323.3612775839203
+En(s=82.00) = -323.3612823759713
+En(s=84.00) = -323.36128636844086
+En(s=86.00) = -323.3612897167746
+En(s=88.00) = -323.3612925081202
+En(s=90.00) = -323.3612948466553
+En(s=92.00) = -323.36129679103624
+En(s=92.75) = -323.3612974387685
+Operator:Rp2
+   HF point proton radius     2.753649 charge radius     2.875881 => HF+PT     2.888277
+s=20.00(Net): point proton radius     2.805067 charge radius     2.925151
+s=22.00(Net): point proton radius     2.805263 charge radius     2.925339
+s=24.00(Net): point proton radius     2.805414 charge radius     2.925484
+s=26.00(Net): point proton radius     2.805530 charge radius     2.925595
+s=28.00(Net): point proton radius     2.805620 charge radius     2.925681

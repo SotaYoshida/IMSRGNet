@@ -1,5 +1,7 @@
-# Mac
+# artifacts from Mac&NuclearToolkit.jl
 .DS_Store
 */.DS_Store
 *~
+flowOmega
+logfile.dat
 

@@ -1,14 +1,29 @@
 # IMSRGNet
 Code and data of IMSRG-Net: arXiv:xxxxx
 
-* imsrgnet.py: sample code to train the IMSRG-Net and to make operator files (in hd5 fmt used in NuclearToolkit.jl).
-* logfile: log files of IMSRG-Net results and IMSRG(2) results w/ NuclearToolkit.jl and approximated Magnus operators
-* data_omega_eta_weights: model parameters and operators used in the paper
-* snts: NN potential file used in `NuclearToolkit.jl`. Only ones w/ $e_\mathrm{max} \leq 8$ are provided in this repository. For larger $e_\mathrm{max}$, you have to edit `optional_parameters.jl` and run `make_chiEFTint()` function in `NuclearToolkit.jl/chiEFTint.jl`.
-* valencespace: valence space effective interactions derived IMSRG-Net or VS-IMSRG(2)
+> To train IMSRG-Net or reproduce the result
+
+* `imsrgnet.py`: sample code to run the IMSRG-Net model and to generate operator files (in hd5 fmt used in NuclearToolkit.jl).
+* `logfile`: log files of IMSRG-Net results and IMSRG(2) results w/ approximated Magnus operators
+* `data_omega_eta_weights`: model parameters and operators used in the paper
+* `snts`: NN potential file used in `NuclearToolkit.jl`. Only ones w/ $e_\mathrm{max} \leq 8$ are provided in this repository. For larger $e_\mathrm{max}$, you have to edit `optional_parameters.jl` and run `make_chiEFTint()` function in `NuclearToolkit.jl/chiEFTint.jl`.
+* `valencespace`: valence space effective interactions derived IMSRG-Net or VS-IMSRG(2)
+
+You can try IMSRG-Net
+```Python
+python3 imsrgnet.py
+```
+and it generates approximated Magnus operators like `ann_omegavec_emax4_emn5002n3n_O16_s106.50.h5`
 
 Note that I do not include all the operator files for larger model space, due to the limitation of the file size.  
 If you need those, please do not hesitate contact me or open issues on this repository.
+
+
+> To run NuclearToolkit.jl
+
+* `sample_script_NuclearToolkit.jl`: sample script to run NuclearToolkit.jl to evaluate IMSRG evolved operators from files. See the section "Note on carrying out IMSRG from files" below for more details. This can be used to generate chiral potentials too.
+* `optional_parameters.jl`: file to specify some parameters for NuclearToolkit.jl. See the [document](https://sotayoshida.github.io/NuclearToolkit.jl/stable/parameters/) of NuclearToolkit.jl for more details.
+
 
 ## Author's environment:
 
@@ -21,10 +36,10 @@ See [Discussions](https://discuss.pytorch.org/t/reproducibility-over-different-m
 - Python: v3.8.10
 - torch: v2.0.0
 - Julia: v 1.8.5 
-    - NuclearToolkit.jl: v0.3.2
+    - NuclearToolkit.jl: IMSRG-Net-v0 branch (=v0.3.3)
 
 
-## Note on carrying out IMSRG from files
+## Note on carrying out IMSRG flow from files
 
 In `NuclearToolkit.jl` v $\geq$ 0.3.2, one can evaluate any IMSRG evolved operators with a specific Magnus operator from files. The main API is `hf_main` function in `src/hartreefock.jl` and it takes an optional argument `restart_from_files`.
 See the sample script `sample_script_NuclearToolkit.jl` in this repository for more details.

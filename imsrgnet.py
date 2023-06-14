@@ -87,10 +87,10 @@ class DataSet:
         if valencespace:
             for idx,sval in enumerate(svals):
                 if sval > 50.0:
-		            idx_conv = idx
+                    idx_conv = idx
                     break
             self.sconv = svals[idx_conv]
-	        print("x giving converged free-space IMSRG calc.",self.sconv)
+            print("x giving converged free-space IMSRG calc.",self.sconv)
 
         self.idxs_test  = [ idx for idx in range(self.num_data-1,self.num_data)]
         idx_s20 = svals.index(20.0)

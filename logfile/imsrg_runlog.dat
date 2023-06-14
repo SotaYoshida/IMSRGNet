@@ -1,0 +1,688 @@
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [142.0]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 4 inttype em500
+pid 528757 dim input: 1 output 34334  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    1.7847e-06   1.6856e-03 ymax/ymin   4.5116e-02  -7.7481e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=34334, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 1.623e-06 loss_mse 1.573e-06 loss_eta 3.690e-08 LossTest 1.909e-08 ( 6.720e-03 ) weight 1.093e-02
+Epoch      500/    5000 loss 1.368e-11 loss_mse 1.867e-12 loss_eta 1.116e-11 LossTest 1.841e-09 ( 6.478e-04 ) weight 5.425e-04
+Epoch     1000/    5000 loss 8.875e-12 loss_mse 7.012e-12 loss_eta 1.102e-12 LossTest 1.890e-11 ( 6.654e-06 ) weight 6.091e-05
+Epoch     1500/    5000 loss 9.622e-12 loss_mse 6.948e-12 loss_eta 1.533e-12 LossTest 1.688e-11 ( 5.941e-06 ) weight 3.257e-05
+Epoch     2000/    5000 loss 9.397e-12 loss_mse 6.401e-12 loss_eta 2.072e-12 LossTest 1.652e-11 ( 5.815e-06 ) weight 3.097e-05
+Epoch     2500/    5000 loss 1.219e-11 loss_mse 7.960e-12 loss_eta 3.348e-12 LossTest 1.858e-11 ( 6.538e-06 ) weight 3.042e-05
+Epoch     3000/    5000 loss 1.828e-11 loss_mse 1.259e-11 loss_eta 1.652e-12 LossTest 1.283e-11 ( 4.515e-06 ) weight 3.063e-05
+Epoch     3500/    5000 loss 7.653e-12 loss_mse 4.784e-12 loss_eta 2.540e-12 LossTest 1.733e-11 ( 6.100e-06 ) weight 3.062e-05
+Epoch     4000/    5000 loss 1.117e-11 loss_mse 7.139e-12 loss_eta 1.851e-12 LossTest 1.056e-11 ( 3.716e-06 ) weight 3.068e-05
+Epoch     4500/    5000 loss 1.407e-11 loss_mse 1.089e-11 loss_eta 2.342e-12 LossTest 1.634e-11 ( 5.752e-06 ) weight 3.041e-05
+Epoch     5000/    5000 loss 1.532e-11 loss_mse 8.795e-12 loss_eta 5.682e-12 LossTest 1.498e-11 ( 5.273e-06 ) weight 3.035e-05
+w/ weights @ 4220.0 tloss 1.5651699213405367e-11
+lowest losssum 1090.0 losssum 4.125723242231798e-12 tloss 2.6917690084864146e-11
+lowest valid  660.0 tloss 3.387738615065144e-11
+lowest eta   980.0 tloss 2.1853557119580107e-11
+lowest total w/o lam_der 460.0 tloss 2.761229219618802e-09
+idx1000 100
+test vs lsum -0.05145454721765695
+test vs mse  0.05416275702176824
+test vs Eta  -0.22427437349731696
+test vs vald -0.23859718400926144
+mse vs  eta  0.5437185614602333
+Best:  4844 loss 6.673e-13  LossValid 2.252e-13  LossTest 2.004e-11
+test:
+x    142.00  loss 2.004e-11 ( 7.055e-06 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [150.75]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 4 inttype em500
+pid 528757 dim input: 1 output 34334  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std   -4.7038e-06   1.8510e-03 ymax/ymin   3.6982e-02  -8.7128e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=34334, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 1.932e-06 loss_mse 1.897e-06 loss_eta 1.959e-08 LossTest 1.875e-08 ( 5.472e-03 ) weight 1.093e-02
+Epoch      500/    5000 loss 6.574e-12 loss_mse 8.578e-13 loss_eta 5.357e-12 LossTest 2.452e-09 ( 7.156e-04 ) weight 5.465e-04
+Epoch     1000/    5000 loss 7.408e-12 loss_mse 6.144e-12 loss_eta 4.800e-13 LossTest 2.739e-11 ( 7.995e-06 ) weight 5.596e-05
+Epoch     1500/    5000 loss 6.990e-12 loss_mse 5.331e-12 loss_eta 4.141e-13 LossTest 3.734e-11 ( 1.090e-05 ) weight 2.781e-05
+Epoch     2000/    5000 loss 1.008e-11 loss_mse 8.866e-12 loss_eta 6.526e-13 LossTest 2.939e-11 ( 8.578e-06 ) weight 2.492e-05
+Epoch     2500/    5000 loss 6.383e-12 loss_mse 5.394e-12 loss_eta 5.212e-13 LossTest 1.876e-11 ( 5.476e-06 ) weight 2.422e-05
+Epoch     3000/    5000 loss 3.863e-12 loss_mse 3.151e-12 loss_eta 4.244e-13 LossTest 1.639e-11 ( 4.782e-06 ) weight 2.425e-05
+Epoch     3500/    5000 loss 5.137e-12 loss_mse 4.362e-12 loss_eta 5.143e-13 LossTest 1.699e-11 ( 4.960e-06 ) weight 2.436e-05
+Epoch     4000/    5000 loss 6.263e-12 loss_mse 4.866e-12 loss_eta 5.370e-13 LossTest 1.514e-11 ( 4.420e-06 ) weight 2.437e-05
+Epoch     4500/    5000 loss 5.037e-12 loss_mse 4.157e-12 loss_eta 5.158e-13 LossTest 2.167e-11 ( 6.325e-06 ) weight 2.432e-05
+Epoch     5000/    5000 loss 4.427e-12 loss_mse 3.700e-12 loss_eta 4.539e-13 LossTest 1.594e-11 ( 4.652e-06 ) weight 2.427e-05
+w/ weights @ 4210.0 tloss 1.5070901916510825e-11
+lowest losssum 3840.0 losssum 2.058690837895005e-12 tloss 1.610592980561013e-11
+lowest valid  2110.0 tloss 1.9009185184726196e-11
+lowest eta   1320.0 tloss 4.17481005444788e-11
+lowest total w/o lam_der 520.0 tloss 2.0830281327279405e-09
+idx1000 100
+test vs lsum 0.08097100675987005
+test vs mse  0.11137456687585078
+test vs Eta  -0.1834552406212286
+test vs vald -0.0377980581919039
+mse vs  eta  0.4940970538102599
+Best:  4686 loss 3.296e-13  LossValid 1.064e-13  LossTest 1.775e-11
+test:
+x    150.75  loss 1.775e-11 ( 5.179e-06 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [106.5]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 4 inttype emn5002n3n
+pid 529414 dim input: 1 output 34334  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    3.4756e-06   2.2285e-03 ymax/ymin   6.5483e-02  -1.2557e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=34334, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 2.774e-06 loss_mse 2.749e-06 loss_eta 2.678e-09 LossTest 2.168e-08 ( 4.367e-03 ) weight 1.093e-02
+Epoch      500/    5000 loss 2.395e-10 loss_mse 8.977e-11 loss_eta 1.444e-10 LossTest 2.545e-10 ( 5.124e-05 ) weight 5.792e-04
+Epoch     1000/    5000 loss 4.274e-12 loss_mse 1.467e-12 loss_eta 2.725e-12 LossTest 5.162e-12 ( 1.039e-06 ) weight 3.866e-05
+Epoch     1500/    5000 loss 8.035e-13 loss_mse 3.957e-13 loss_eta 3.081e-13 LossTest 6.695e-12 ( 1.348e-06 ) weight 1.307e-05
+Epoch     2000/    5000 loss 1.756e-12 loss_mse 8.881e-13 loss_eta 6.148e-13 LossTest 7.172e-12 ( 1.444e-06 ) weight 1.227e-05
+Epoch     2500/    5000 loss 8.059e-13 loss_mse 4.329e-13 loss_eta 2.264e-13 LossTest 9.867e-12 ( 1.987e-06 ) weight 1.374e-05
+Epoch     3000/    5000 loss 6.263e-13 loss_mse 3.641e-13 loss_eta 2.475e-13 LossTest 9.180e-12 ( 1.849e-06 ) weight 1.441e-05
+Epoch     3500/    5000 loss 9.621e-13 loss_mse 6.071e-13 loss_eta 3.352e-13 LossTest 9.659e-12 ( 1.945e-06 ) weight 1.439e-05
+Epoch     4000/    5000 loss 2.333e-12 loss_mse 1.488e-12 loss_eta 7.704e-13 LossTest 1.075e-11 ( 2.165e-06 ) weight 1.447e-05
+Epoch     4500/    5000 loss 1.326e-12 loss_mse 8.203e-13 loss_eta 4.927e-13 LossTest 1.186e-11 ( 2.389e-06 ) weight 1.434e-05
+Epoch     5000/    5000 loss 3.334e-12 loss_mse 2.014e-12 loss_eta 1.063e-12 LossTest 1.017e-11 ( 2.047e-06 ) weight 1.460e-05
+w/ weights @ 1770.0 tloss 6.680618014949854e-12
+lowest losssum 2460.0 losssum 2.7896437615598385e-13 tloss 1.0887498479573895e-11
+lowest valid  3750.0 tloss 1.0921583409390415e-11
+lowest eta   2460.0 tloss 1.0887498479573895e-11
+lowest total w/o lam_der 3370.0 tloss 1.0782050415708349e-11
+idx1000 100
+test vs lsum -0.2575026965926208
+test vs mse  -0.13837830789712527
+test vs Eta  -0.412096891344339
+test vs vald -0.1841468611138635
+mse vs  eta  0.40386548307758385
+Best:  4493 loss 2.261e-14  LossValid 1.060e-14  LossTest 1.221e-11
+test:
+x    106.50  loss 1.221e-11 ( 2.458e-06 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [74.5]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 4 inttype emn5002n3n
+pid 529414 dim input: 1 output 34334  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std   -3.0691e-06   2.4362e-03 ymax/ymin   7.6520e-02  -1.2586e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=34334, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 3.315e-06 loss_mse 3.285e-06 loss_eta 3.270e-09 LossTest 2.572e-08 ( 4.334e-03 ) weight 1.093e-02
+Epoch      500/    5000 loss 2.636e-10 loss_mse 9.891e-11 loss_eta 1.577e-10 LossTest 1.071e-10 ( 1.804e-05 ) weight 5.864e-04
+Epoch     1000/    5000 loss 1.619e-12 loss_mse 5.507e-13 loss_eta 1.028e-12 LossTest 2.721e-12 ( 4.584e-07 ) weight 4.030e-05
+Epoch     1500/    5000 loss 1.947e-12 loss_mse 9.898e-13 loss_eta 7.096e-13 LossTest 1.515e-12 ( 2.553e-07 ) weight 1.402e-05
+Epoch     2000/    5000 loss 1.999e-12 loss_mse 1.398e-12 loss_eta 3.166e-13 LossTest 2.982e-12 ( 5.024e-07 ) weight 1.197e-05
+Epoch     2500/    5000 loss 8.392e-13 loss_mse 4.159e-13 loss_eta 2.476e-13 LossTest 2.513e-12 ( 4.235e-07 ) weight 1.243e-05
+Epoch     3000/    5000 loss 2.686e-12 loss_mse 1.942e-12 loss_eta 6.722e-13 LossTest 4.223e-12 ( 7.115e-07 ) weight 1.282e-05
+Epoch     3500/    5000 loss 2.626e-12 loss_mse 1.975e-12 loss_eta 6.273e-13 LossTest 3.411e-12 ( 5.747e-07 ) weight 1.321e-05
+Epoch     4000/    5000 loss 1.057e-12 loss_mse 6.555e-13 loss_eta 2.020e-13 LossTest 2.346e-12 ( 3.953e-07 ) weight 1.294e-05
+Epoch     4500/    5000 loss 8.738e-13 loss_mse 5.577e-13 loss_eta 2.828e-13 LossTest 3.350e-12 ( 5.645e-07 ) weight 1.334e-05
+Epoch     5000/    5000 loss 4.151e-12 loss_mse 2.747e-12 loss_eta 9.072e-13 LossTest 2.255e-12 ( 3.800e-07 ) weight 1.293e-05
+w/ weights @ 1870.0 tloss 1.411500725704322e-12
+lowest losssum 2730.0 losssum 3.4091805684910087e-13 tloss 2.896914129879629e-12
+lowest valid  4300.0 tloss 3.3509538056044178e-12
+lowest eta   3750.0 tloss 4.119167951414693e-12
+lowest total w/o lam_der 3880.0 tloss 4.141503268939296e-12
+idx1000 100
+test vs lsum -0.08743032193251407
+test vs mse  -0.044265459670027395
+test vs Eta  -0.27653462574162047
+test vs vald 0.11351338416109305
+mse vs  eta  0.4024842107300255
+Best:  4541 loss 1.610e-14  LossValid 6.801e-15  LossTest 3.164e-12
+test:
+x     74.50  loss 3.164e-12 ( 5.332e-07 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [125.25]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 6 inttype em500
+pid 529758 dim input: 1 output 467076  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    4.1964e-07   1.0000e-03 ymax/ymin   4.1514e-02  -7.4161e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=467076, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.632e-07 loss_mse 5.574e-07 loss_eta 1.219e-09 LossTest 4.555e-09 ( 4.555e-03 ) weight 1.481e-01
+Epoch      500/    5000 loss 6.495e-11 loss_mse 4.665e-11 loss_eta 1.593e-11 LossTest 1.618e-10 ( 1.618e-04 ) weight 7.227e-03
+Epoch     1000/    5000 loss 3.270e-11 loss_mse 1.663e-11 loss_eta 1.514e-11 LossTest 1.615e-10 ( 1.615e-04 ) weight 4.154e-04
+Epoch     1500/    5000 loss 1.753e-13 loss_mse 8.189e-14 loss_eta 6.623e-14 LossTest 5.445e-13 ( 5.445e-07 ) weight 4.471e-05
+Epoch     2000/    5000 loss 2.153e-13 loss_mse 1.454e-13 loss_eta 3.921e-14 LossTest 1.766e-13 ( 1.766e-07 ) weight 2.377e-05
+Epoch     2500/    5000 loss 2.873e-13 loss_mse 2.128e-13 loss_eta 4.087e-14 LossTest 1.562e-13 ( 1.562e-07 ) weight 2.165e-05
+Epoch     3000/    5000 loss 4.464e-13 loss_mse 3.390e-13 loss_eta 4.736e-14 LossTest 9.097e-14 ( 9.097e-08 ) weight 2.164e-05
+Epoch     3500/    5000 loss 1.753e-13 loss_mse 1.408e-13 loss_eta 3.012e-14 LossTest 1.057e-13 ( 1.057e-07 ) weight 2.167e-05
+Epoch     4000/    5000 loss 3.108e-13 loss_mse 2.268e-13 loss_eta 3.100e-14 LossTest 1.256e-13 ( 1.256e-07 ) weight 2.166e-05
+Epoch     4500/    5000 loss 1.974e-13 loss_mse 1.206e-13 loss_eta 3.062e-14 LossTest 1.313e-13 ( 1.313e-07 ) weight 2.164e-05
+Epoch     5000/    5000 loss 2.711e-13 loss_mse 1.868e-13 loss_eta 3.108e-14 LossTest 8.046e-14 ( 8.046e-08 ) weight 2.156e-05
+w/ weights @ 4650.0 tloss 1.6408964143010963e-13
+lowest losssum 4810.0 losssum 9.450301069469091e-14 tloss 1.458214455851703e-13
+lowest valid  1610.0 tloss 2.526180651329923e-13
+lowest eta   3190.0 tloss 1.45302919918322e-13
+lowest total w/o lam_der 1320.0 tloss 3.1164697134045125e-13
+idx1000 100
+test vs lsum 0.8920425895684078
+test vs mse  0.901173220140456
+test vs Eta  0.8135889363716575
+test vs vald 0.6433522172760663
+mse vs  eta  0.38315992941675237
+Best:  4813 loss 8.729e-15  LossValid 8.085e-15  LossTest 1.334e-13
+test:
+x    125.25  loss 1.334e-13 ( 1.334e-07 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [117.25]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 6 inttype em500
+pid 529758 dim input: 1 output 467076  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    2.0981e-07   1.0000e-03 ymax/ymin   3.5765e-02  -8.0261e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=467076, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.628e-07 loss_mse 5.573e-07 loss_eta 8.598e-10 LossTest 4.485e-09 ( 4.485e-03 ) weight 1.481e-01
+Epoch      500/    5000 loss 5.703e-11 loss_mse 3.241e-11 loss_eta 2.310e-11 LossTest 8.799e-11 ( 8.799e-05 ) weight 7.250e-03
+Epoch     1000/    5000 loss 2.433e-11 loss_mse 1.290e-11 loss_eta 1.091e-11 LossTest 8.755e-11 ( 8.755e-05 ) weight 4.165e-04
+Epoch     1500/    5000 loss 6.450e-14 loss_mse 1.126e-14 loss_eta 5.045e-14 LossTest 2.442e-12 ( 2.442e-06 ) weight 4.677e-05
+Epoch     2000/    5000 loss 9.374e-14 loss_mse 6.269e-14 loss_eta 2.429e-14 LossTest 4.903e-15 ( 4.903e-09 ) weight 2.195e-05
+Epoch     2500/    5000 loss 4.368e-14 loss_mse 1.841e-14 loss_eta 2.085e-14 LossTest 9.360e-15 ( 9.360e-09 ) weight 1.915e-05
+Epoch     3000/    5000 loss 2.157e-13 loss_mse 1.776e-13 loss_eta 3.189e-14 LossTest 3.627e-15 ( 3.627e-09 ) weight 1.882e-05
+Epoch     3500/    5000 loss 1.129e-13 loss_mse 9.222e-14 loss_eta 1.692e-14 LossTest 7.455e-15 ( 7.455e-09 ) weight 1.871e-05
+Epoch     4000/    5000 loss 1.104e-13 loss_mse 8.495e-14 loss_eta 2.084e-14 LossTest 7.945e-15 ( 7.945e-09 ) weight 1.875e-05
+Epoch     4500/    5000 loss 1.239e-13 loss_mse 6.000e-14 loss_eta 2.484e-14 LossTest 1.231e-14 ( 1.231e-08 ) weight 1.880e-05
+Epoch     5000/    5000 loss 9.607e-14 loss_mse 6.626e-14 loss_eta 2.448e-14 LossTest 8.573e-15 ( 8.573e-09 ) weight 1.885e-05
+w/ weights @ 3780.0 tloss 1.4327400599256633e-14
+lowest losssum 4310.0 losssum 2.718798161605029e-14 tloss 8.325156564126246e-15
+lowest valid  4360.0 tloss 9.320693550307624e-15
+lowest eta   3460.0 tloss 6.8180563417286065e-15
+lowest total w/o lam_der 1390.0 tloss 7.280789873220783e-13
+idx1000 100
+test vs lsum 0.8917249022955037
+test vs mse  0.8977261805442105
+test vs Eta  0.8317508522525533
+test vs vald 0.6622562424195279
+mse vs  eta  0.38665074354848594
+Best:  4421 loss 6.017e-15  LossValid 2.876e-15  LossTest 4.657e-15
+test:
+x    117.25  loss 4.657e-15 ( 4.657e-09 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [109.75]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 6 inttype emn5002n3n
+pid 532297 dim input: 1 output 467076  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    4.3924e-07   1.0000e-03 ymax/ymin   6.3093e-02  -1.1870e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=467076, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.624e-07 loss_mse 5.573e-07 loss_eta 4.352e-10 LossTest 4.431e-09 ( 4.431e-03 ) weight 1.481e-01
+Epoch      500/    5000 loss 2.707e-11 loss_mse 1.507e-11 loss_eta 1.116e-11 LossTest 3.944e-11 ( 3.944e-05 ) weight 7.288e-03
+Epoch     1000/    5000 loss 1.370e-11 loss_mse 9.241e-12 loss_eta 4.193e-12 LossTest 3.841e-11 ( 3.841e-05 ) weight 4.037e-04
+Epoch     1500/    5000 loss 9.755e-12 loss_mse 3.257e-12 loss_eta 5.607e-12 LossTest 3.841e-11 ( 3.841e-05 ) weight 8.702e-05
+Epoch     2000/    5000 loss 7.932e-14 loss_mse 3.455e-14 loss_eta 3.588e-14 LossTest 2.244e-12 ( 2.244e-06 ) weight 2.004e-05
+Epoch     2500/    5000 loss 4.502e-14 loss_mse 2.251e-14 loss_eta 1.759e-14 LossTest 4.552e-13 ( 4.552e-07 ) weight 1.658e-05
+Epoch     3000/    5000 loss 1.036e-13 loss_mse 6.134e-14 loss_eta 3.524e-14 LossTest 3.568e-13 ( 3.568e-07 ) weight 1.643e-05
+Epoch     3500/    5000 loss 2.094e-13 loss_mse 1.623e-13 loss_eta 4.506e-14 LossTest 3.935e-13 ( 3.935e-07 ) weight 1.659e-05
+Epoch     4000/    5000 loss 2.730e-13 loss_mse 1.918e-13 loss_eta 5.322e-14 LossTest 4.277e-13 ( 4.277e-07 ) weight 1.668e-05
+Epoch     4500/    5000 loss 9.921e-14 loss_mse 6.341e-14 loss_eta 3.376e-14 LossTest 4.702e-13 ( 4.702e-07 ) weight 1.672e-05
+Epoch     5000/    5000 loss 1.398e-13 loss_mse 9.202e-14 loss_eta 3.275e-14 LossTest 5.050e-13 ( 5.050e-07 ) weight 1.669e-05
+w/ weights @ 2810.0 tloss 4.004100446763914e-13
+lowest losssum 1880.0 losssum 2.3840710482170293e-14 tloss 2.4833548195601904e-12
+lowest valid  4660.0 tloss 5.193405172576603e-13
+lowest eta   1880.0 tloss 2.4833548195601904e-12
+lowest total w/o lam_der 1730.0 tloss 1.6384561263294017e-13
+idx1000 100
+test vs lsum 0.9222832582904256
+test vs mse  0.8622213224764844
+test vs Eta  0.8810247612310498
+test vs vald 0.7129446944092979
+mse vs  eta  0.37964359088895105
+Best:  4482 loss 2.702e-15  LossValid 6.831e-16  LossTest 5.508e-13
+test:
+x    109.75  loss 5.508e-13 ( 5.508e-07 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [95.5]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 6 inttype emn5002n3n
+pid 532297 dim input: 1 output 467076  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std   -3.5679e-07   1.0000e-03 ymax/ymin   7.1937e-02  -1.2587e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=467076, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.631e-07 loss_mse 5.573e-07 loss_eta 1.213e-09 LossTest 4.468e-09 ( 4.468e-03 ) weight 1.481e-01
+Epoch      500/    5000 loss 6.705e-11 loss_mse 4.174e-11 loss_eta 2.340e-11 LossTest 6.951e-11 ( 6.951e-05 ) weight 7.241e-03
+Epoch     1000/    5000 loss 3.525e-11 loss_mse 1.828e-11 loss_eta 1.631e-11 LossTest 6.932e-11 ( 6.932e-05 ) weight 4.141e-04
+Epoch     1500/    5000 loss 6.146e-13 loss_mse 3.264e-13 loss_eta 2.448e-13 LossTest 4.847e-12 ( 4.847e-06 ) weight 5.207e-05
+Epoch     2000/    5000 loss 1.242e-12 loss_mse 7.507e-13 loss_eta 2.471e-13 LossTest 2.533e-12 ( 2.533e-06 ) weight 3.015e-05
+Epoch     2500/    5000 loss 3.064e-13 loss_mse 2.099e-13 loss_eta 6.322e-14 LossTest 1.596e-12 ( 1.596e-06 ) weight 2.773e-05
+Epoch     3000/    5000 loss 1.989e-13 loss_mse 1.058e-13 loss_eta 7.904e-14 LossTest 1.726e-12 ( 1.726e-06 ) weight 2.779e-05
+Epoch     3500/    5000 loss 7.357e-13 loss_mse 5.266e-13 loss_eta 1.886e-13 LossTest 1.580e-12 ( 1.580e-06 ) weight 2.802e-05
+Epoch     4000/    5000 loss 8.419e-13 loss_mse 5.499e-13 loss_eta 2.372e-13 LossTest 1.643e-12 ( 1.643e-06 ) weight 2.807e-05
+Epoch     4500/    5000 loss 4.622e-13 loss_mse 2.914e-13 loss_eta 1.316e-13 LossTest 1.678e-12 ( 1.678e-06 ) weight 2.813e-05
+Epoch     5000/    5000 loss 1.899e-12 loss_mse 1.411e-12 loss_eta 4.660e-13 LossTest 2.117e-12 ( 2.117e-06 ) weight 2.810e-05
+w/ weights @ 2620.0 tloss 2.07749735636753e-12
+lowest losssum 2900.0 losssum 1.3627221817635868e-13 tloss 1.7585211935511323e-12
+lowest valid  4860.0 tloss 1.6746754454288748e-12
+lowest eta   2100.0 tloss 1.7204911273438483e-12
+lowest total w/o lam_der 1320.0 tloss 2.297927039762726e-12
+idx1000 100
+test vs lsum 0.9213374052221945
+test vs mse  0.9433628468646368
+test vs Eta  0.8732923653768634
+test vs vald 0.7412994974318863
+mse vs  eta  0.39430945046580806
+Best:  4813 loss 2.909e-14  LossValid 5.969e-15  LossTest 1.530e-12
+test:
+x     95.50  loss 1.530e-12 ( 1.530e-06 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [121.25]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 8 inttype em500
+pid 686082 dim input: 1 output 3526724  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    6.3346e-08   1.0000e-03 ymax/ymin   3.9559e-02  -7.2656e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=3526724, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.697e-07 loss_mse 5.647e-07 loss_eta 2.028e-10 LossTest 4.603e-09 ( 4.603e-03 ) weight 1.119e+00
+Epoch      500/    5000 loss 1.018e-11 loss_mse 7.171e-12 loss_eta 2.548e-12 LossTest 1.517e-11 ( 1.517e-05 ) weight 5.464e-02
+Epoch     1000/    5000 loss 5.141e-12 loss_mse 3.374e-12 loss_eta 1.637e-12 LossTest 1.372e-11 ( 1.372e-05 ) weight 2.763e-03
+Epoch     1500/    5000 loss 3.746e-12 loss_mse 1.454e-12 loss_eta 2.068e-12 LossTest 1.372e-11 ( 1.372e-05 ) weight 1.877e-04
+Epoch     2000/    5000 loss 2.589e-14 loss_mse 2.479e-16 loss_eta 2.507e-14 LossTest 1.639e-13 ( 1.639e-07 ) weight 4.703e-05
+Epoch     2500/    5000 loss 8.461e-15 loss_mse 2.435e-15 loss_eta 5.835e-15 LossTest 1.061e-14 ( 1.061e-08 ) weight 1.600e-05
+Epoch     3000/    5000 loss 1.154e-14 loss_mse 5.182e-15 loss_eta 6.245e-15 LossTest 1.199e-13 ( 1.199e-07 ) weight 1.402e-05
+Epoch     3500/    5000 loss 1.831e-14 loss_mse 1.204e-14 loss_eta 6.244e-15 LossTest 1.531e-13 ( 1.531e-07 ) weight 1.393e-05
+Epoch     4000/    5000 loss 7.334e-15 loss_mse 1.898e-15 loss_eta 5.373e-15 LossTest 1.712e-13 ( 1.712e-07 ) weight 1.392e-05
+Epoch     4500/    5000 loss 9.711e-15 loss_mse 3.077e-15 loss_eta 6.100e-15 LossTest 1.588e-13 ( 1.588e-07 ) weight 1.395e-05
+Epoch     5000/    5000 loss 2.424e-14 loss_mse 1.724e-14 loss_eta 5.252e-15 LossTest 1.928e-13 ( 1.928e-07 ) weight 1.392e-05
+w/ weights @ 3430.0 tloss 1.7702218713111505e-13
+lowest losssum 4730.0 losssum 5.661827620889043e-15 tloss 1.7517788819532142e-13
+lowest valid  4670.0 tloss 1.6653633849728065e-13
+lowest eta   3030.0 tloss 1.4302113982012088e-13
+lowest total w/o lam_der 2100.0 tloss 1.0356189505955626e-13
+idx1000 100
+test vs lsum 0.927740560197923
+test vs mse  0.9209185824141315
+test vs Eta  0.8341391981679697
+test vs vald 0.7831356683728258
+mse vs  eta  0.42512795243227597
+Best:  4806 loss 8.426e-16  LossValid 1.734e-16  LossTest 1.726e-13
+test:
+x    121.25  loss 1.726e-13 ( 1.726e-07 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [108.25]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 8 inttype em500
+pid 686082 dim input: 1 output 3526724  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    1.1408e-07   1.0000e-03 ymax/ymin   3.5635e-02  -7.8381e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=3526724, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.696e-07 loss_mse 5.647e-07 loss_eta 1.632e-10 LossTest 4.596e-09 ( 4.596e-03 ) weight 1.119e+00
+Epoch      500/    5000 loss 7.380e-12 loss_mse 5.367e-12 loss_eta 1.668e-12 LossTest 7.184e-12 ( 7.184e-06 ) weight 5.469e-02
+Epoch     1000/    5000 loss 3.165e-12 loss_mse 1.910e-12 loss_eta 1.197e-12 LossTest 5.916e-12 ( 5.916e-06 ) weight 2.773e-03
+Epoch     1500/    5000 loss 2.729e-12 loss_mse 1.212e-12 loss_eta 1.436e-12 LossTest 5.905e-12 ( 5.905e-06 ) weight 1.814e-04
+Epoch     2000/    5000 loss 5.405e-15 loss_mse 9.856e-16 loss_eta 4.322e-15 LossTest 4.987e-13 ( 4.987e-07 ) weight 2.842e-05
+Epoch     2500/    5000 loss 5.297e-15 loss_mse 1.903e-15 loss_eta 3.218e-15 LossTest 6.213e-15 ( 6.213e-09 ) weight 1.318e-05
+Epoch     3000/    5000 loss 1.047e-14 loss_mse 6.060e-15 loss_eta 4.063e-15 LossTest 6.897e-15 ( 6.897e-09 ) weight 1.208e-05
+Epoch     3500/    5000 loss 1.522e-14 loss_mse 1.105e-14 loss_eta 3.786e-15 LossTest 9.097e-15 ( 9.097e-09 ) weight 1.210e-05
+Epoch     4000/    5000 loss 1.347e-14 loss_mse 8.720e-15 loss_eta 3.029e-15 LossTest 2.494e-14 ( 2.494e-08 ) weight 1.208e-05
+Epoch     4500/    5000 loss 7.213e-15 loss_mse 3.443e-15 loss_eta 3.742e-15 LossTest 1.871e-14 ( 1.871e-08 ) weight 1.210e-05
+Epoch     5000/    5000 loss 6.744e-15 loss_mse 3.160e-15 loss_eta 3.211e-15 LossTest 2.227e-14 ( 2.227e-08 ) weight 1.203e-05
+w/ weights @ 4800.0 tloss 3.4578999219547765e-14
+lowest losssum 4460.0 losssum 3.8523282689913525e-15 tloss 1.5547055198794624e-14
+lowest valid  3930.0 tloss 1.3290945233279671e-14
+lowest eta   2950.0 tloss 1.0939188221925633e-14
+lowest total w/o lam_der 2110.0 tloss 2.9351454600146095e-13
+idx1000 100
+test vs lsum 0.9459573235394892
+test vs mse  0.9399064698194867
+test vs Eta  0.8807618191234196
+test vs vald 0.7951712683848241
+mse vs  eta  0.5116556324268478
+Best:  4904 loss 4.866e-16  LossValid 8.256e-17  LossTest 2.508e-14
+test:
+x    108.25  loss 2.508e-14 ( 2.508e-08 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [109.5]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 8 inttype emn5002n3n
+pid 534416 dim input: 1 output 3526724  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    6.3392e-08   1.0000e-03 ymax/ymin   6.0773e-02  -1.1410e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=3526724, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.696e-07 loss_mse 5.647e-07 loss_eta 1.640e-10 LossTest 4.596e-09 ( 4.596e-03 ) weight 1.119e+00
+Epoch      500/    5000 loss 7.440e-12 loss_mse 5.394e-12 loss_eta 1.694e-12 LossTest 7.988e-12 ( 7.988e-06 ) weight 5.469e-02
+Epoch     1000/    5000 loss 3.284e-12 loss_mse 1.965e-12 loss_eta 1.250e-12 LossTest 6.657e-12 ( 6.657e-06 ) weight 2.774e-03
+Epoch     1500/    5000 loss 2.788e-12 loss_mse 1.226e-12 loss_eta 1.480e-12 LossTest 6.646e-12 ( 6.646e-06 ) weight 1.812e-04
+Epoch     2000/    5000 loss 3.802e-14 loss_mse 1.438e-15 loss_eta 3.586e-14 LossTest 2.365e-13 ( 2.365e-07 ) weight 3.413e-05
+Epoch     2500/    5000 loss 4.231e-14 loss_mse 2.316e-14 loss_eta 1.429e-14 LossTest 3.634e-14 ( 3.634e-08 ) weight 1.467e-05
+Epoch     3000/    5000 loss 1.128e-14 loss_mse 2.236e-15 loss_eta 8.929e-15 LossTest 2.362e-14 ( 2.362e-08 ) weight 1.320e-05
+Epoch     3500/    5000 loss 1.401e-14 loss_mse 5.458e-15 loss_eta 8.387e-15 LossTest 3.572e-14 ( 3.572e-08 ) weight 1.311e-05
+Epoch     4000/    5000 loss 1.610e-14 loss_mse 7.343e-15 loss_eta 8.342e-15 LossTest 5.083e-14 ( 5.083e-08 ) weight 1.306e-05
+Epoch     4500/    5000 loss 9.388e-15 loss_mse 2.936e-15 loss_eta 6.165e-15 LossTest 5.773e-14 ( 5.773e-08 ) weight 1.306e-05
+Epoch     5000/    5000 loss 1.237e-14 loss_mse 3.997e-15 loss_eta 7.849e-15 LossTest 6.676e-14 ( 6.676e-08 ) weight 1.305e-05
+w/ weights @ 4520.0 tloss 5.976101391524935e-14
+lowest losssum 4340.0 losssum 7.75525303372583e-15 tloss 5.0298208265076025e-14
+lowest valid  4110.0 tloss 5.389740209693627e-14
+lowest eta   4730.0 tloss 6.527799456534922e-14
+lowest total w/o lam_der 2080.0 tloss 2.936777150353009e-13
+idx1000 100
+test vs lsum 0.9448941153324448
+test vs mse  0.9380069914199302
+test vs Eta  0.8815145273032676
+test vs vald 0.8066352118873054
+mse vs  eta  0.5090217321717517
+Best:  4571 loss 6.307e-16  LossValid 3.854e-16  LossTest 6.648e-14
+test:
+x    109.50  loss 6.648e-14 ( 6.648e-08 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [93.5]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 8 inttype emn5002n3n
+pid 534416 dim input: 1 output 3526724  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std   -1.2324e-09   1.0000e-03 ymax/ymin   7.0615e-02  -1.2150e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=3526724, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.697e-07 loss_mse 5.647e-07 loss_eta 2.700e-10 LossTest 4.601e-09 ( 4.601e-03 ) weight 1.119e+00
+Epoch      500/    5000 loss 1.299e-11 loss_mse 8.882e-12 loss_eta 3.569e-12 LossTest 1.043e-11 ( 1.043e-05 ) weight 5.461e-02
+Epoch     1000/    5000 loss 7.220e-12 loss_mse 4.614e-12 loss_eta 2.512e-12 LossTest 9.562e-12 ( 9.562e-06 ) weight 2.759e-03
+Epoch     1500/    5000 loss 6.334e-12 loss_mse 2.786e-12 loss_eta 3.342e-12 LossTest 9.561e-12 ( 9.561e-06 ) weight 1.944e-04
+Epoch     2000/    5000 loss 6.233e-12 loss_mse 4.159e-12 loss_eta 1.971e-12 LossTest 9.561e-12 ( 9.561e-06 ) weight 6.896e-05
+Epoch     2500/    5000 loss 3.840e-14 loss_mse 1.997e-14 loss_eta 1.588e-14 LossTest 2.661e-13 ( 2.661e-07 ) weight 2.403e-05
+Epoch     3000/    5000 loss 3.820e-14 loss_mse 2.120e-14 loss_eta 1.558e-14 LossTest 1.423e-13 ( 1.423e-07 ) weight 2.125e-05
+Epoch     3500/    5000 loss 4.229e-14 loss_mse 2.386e-14 loss_eta 1.730e-14 LossTest 1.376e-13 ( 1.376e-07 ) weight 2.109e-05
+Epoch     4000/    5000 loss 1.175e-13 loss_mse 6.652e-14 loss_eta 3.836e-14 LossTest 1.163e-13 ( 1.163e-07 ) weight 2.110e-05
+Epoch     4500/    5000 loss 3.467e-14 loss_mse 2.167e-14 loss_eta 1.122e-14 LossTest 1.002e-13 ( 1.002e-07 ) weight 2.129e-05
+Epoch     5000/    5000 loss 6.513e-14 loss_mse 3.327e-14 loss_eta 2.565e-14 LossTest 8.145e-14 ( 8.145e-08 ) weight 2.121e-05
+w/ weights @ 3340.0 tloss 1.266594438220636e-13
+lowest losssum 4340.0 losssum 2.4907107855354213e-14 tloss 1.075546620654677e-13
+lowest valid  4400.0 tloss 1.176338670916266e-13
+lowest eta   4730.0 tloss 1.1292998181033908e-13
+lowest total w/o lam_der 2230.0 tloss 4.574257843614759e-13
+idx1000 100
+test vs lsum 0.9074235515512991
+test vs mse  0.9277645068061358
+test vs Eta  0.8013000776394718
+test vs vald 0.7353952044983916
+mse vs  eta  0.3668347954589487
+Best:  4161 loss 2.735e-15  LossValid 1.136e-15  LossTest 1.037e-13
+test:
+x     93.50  loss 1.037e-13 ( 1.037e-07 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [120.0]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 10 inttype em500
+pid 689263 dim input: 1 output 18345624  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    1.2707e-08   1.0000e-03 ymax/ymin   3.8032e-02  -7.2110e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=18345624, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.981e-07 loss_mse 5.922e-07 loss_eta 1.197e-10 LossTest 5.546e-09 ( 5.546e-03 ) weight 5.856e+00
+Epoch      500/    5000 loss 1.803e-11 loss_mse 2.358e-12 loss_eta 1.532e-11 LossTest 2.441e-12 ( 2.441e-06 ) weight 2.855e-01
+Epoch     1000/    5000 loss 2.189e-12 loss_mse 8.998e-13 loss_eta 1.154e-12 LossTest 2.225e-12 ( 2.225e-06 ) weight 1.420e-02
+Epoch     1500/    5000 loss 1.199e-12 loss_mse 5.939e-13 loss_eta 5.310e-13 LossTest 2.159e-12 ( 2.159e-06 ) weight 7.385e-04
+Epoch     2000/    5000 loss 1.383e-12 loss_mse 8.665e-13 loss_eta 5.027e-13 LossTest 2.158e-12 ( 2.158e-06 ) weight 7.259e-05
+Epoch     2500/    5000 loss 1.822e-15 loss_mse 3.046e-17 loss_eta 1.753e-15 LossTest 3.080e-14 ( 3.080e-08 ) weight 1.736e-05
+Epoch     3000/    5000 loss 1.958e-15 loss_mse 1.031e-16 loss_eta 1.813e-15 LossTest 1.875e-15 ( 1.875e-09 ) weight 1.108e-05
+Epoch     3500/    5000 loss 2.051e-15 loss_mse 1.251e-16 loss_eta 1.906e-15 LossTest 7.499e-15 ( 7.499e-09 ) weight 1.062e-05
+Epoch     4000/    5000 loss 2.069e-15 loss_mse 4.142e-16 loss_eta 1.643e-15 LossTest 1.034e-14 ( 1.034e-08 ) weight 1.055e-05
+Epoch     4500/    5000 loss 1.975e-15 loss_mse 1.300e-16 loss_eta 1.790e-15 LossTest 9.623e-15 ( 9.623e-09 ) weight 1.053e-05
+Epoch     5000/    5000 loss 1.928e-15 loss_mse 2.353e-16 loss_eta 1.619e-15 LossTest 1.262e-14 ( 1.262e-08 ) weight 1.049e-05
+w/ weights @ 4930.0 tloss 1.5046476065094792e-14
+lowest losssum 2430.0 losssum 1.3854245361881195e-15 tloss 3.491293698587583e-15
+lowest valid  3850.0 tloss 1.1161665369741058e-14
+lowest eta   3330.0 tloss 5.241692413449072e-15
+lowest total w/o lam_der 2700.0 tloss 2.5930109615046602e-14
+idx1000 100
+test vs lsum 0.910903666840499
+test vs mse  0.9335103073059563
+test vs Eta  0.8424201148980469
+test vs vald 0.7480991125918488
+mse vs  eta  0.6971832045324479
+Best:  4646 bestloss 1.501e-15
+test:
+x    120.00  loss 1.039e-14 ( 1.039e-08 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [104.0]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 10 inttype em500
+pid 689263 dim input: 1 output 18345624  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    3.5393e-08   1.0000e-03 ymax/ymin   3.5370e-02  -7.7779e-02
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=18345624, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.981e-07 loss_mse 5.922e-07 loss_eta 1.112e-10 LossTest 5.545e-09 ( 5.545e-03 ) weight 5.856e+00
+Epoch      500/    5000 loss 9.300e-12 loss_mse 2.222e-12 loss_eta 6.799e-12 LossTest 8.743e-13 ( 8.743e-07 ) weight 2.855e-01
+Epoch     1000/    5000 loss 1.054e-12 loss_mse 6.171e-13 loss_eta 3.881e-13 LossTest 7.179e-13 ( 7.179e-07 ) weight 1.419e-02
+Epoch     1500/    5000 loss 5.661e-13 loss_mse 2.758e-13 loss_eta 2.565e-13 LossTest 6.587e-13 ( 6.587e-07 ) weight 7.378e-04
+Epoch     2000/    5000 loss 4.943e-13 loss_mse 2.907e-13 loss_eta 1.888e-13 LossTest 6.573e-13 ( 6.573e-07 ) weight 6.699e-05
+Epoch     2500/    5000 loss 1.042e-15 loss_mse 2.183e-17 loss_eta 9.939e-16 LossTest 1.723e-14 ( 1.723e-08 ) weight 1.624e-05
+Epoch     3000/    5000 loss 2.145e-15 loss_mse 1.260e-16 loss_eta 1.954e-15 LossTest 8.775e-15 ( 8.775e-09 ) weight 8.529e-06
+Epoch     3500/    5000 loss 2.134e-15 loss_mse 5.424e-17 loss_eta 2.068e-15 LossTest 4.327e-15 ( 4.327e-09 ) weight 8.053e-06
+Epoch     4000/    5000 loss 2.326e-15 loss_mse 4.522e-16 loss_eta 1.816e-15 LossTest 4.134e-15 ( 4.134e-09 ) weight 7.979e-06
+Epoch     4500/    5000 loss 2.589e-15 loss_mse 3.533e-16 loss_eta 2.227e-15 LossTest 4.329e-15 ( 4.329e-09 ) weight 7.944e-06
+Epoch     5000/    5000 loss 2.312e-15 loss_mse 2.329e-16 loss_eta 2.070e-15 LossTest 2.817e-15 ( 2.817e-09 ) weight 7.906e-06
+w/ weights @ 4810.0 tloss 2.098670792705093e-15
+lowest losssum 2460.0 losssum 7.982729787081753e-16 tloss 4.605016812320173e-15
+lowest valid  3400.0 tloss 4.6667358866159245e-15
+lowest eta   2460.0 tloss 4.605016812320173e-15
+lowest total w/o lam_der 2460.0 tloss 4.605016812320173e-15
+idx1000 100
+test vs lsum 0.9290168836316124
+test vs mse  0.9280739691789619
+test vs Eta  0.8833094226996316
+test vs vald 0.7654359450717606
+mse vs  eta  0.8894753170979595
+Best:  4162 bestloss 1.533e-15
+test:
+x    104.00  loss 6.501e-15 ( 6.501e-09 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [109.75]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc O16 emax 10 inttype emn5002n3n
+pid 799389 dim input: 1 output 18345624  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    1.3025e-08   1.0000e-03 ymax/ymin   5.9578e-02  -1.1163e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=18345624, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.981e-07 loss_mse 5.922e-07 loss_eta 1.166e-10 LossTest 5.546e-09 ( 5.546e-03 ) weight 5.856e+00
+Epoch      500/    5000 loss 1.542e-11 loss_mse 2.317e-12 loss_eta 1.277e-11 LossTest 1.678e-12 ( 1.678e-06 ) weight 2.855e-01
+Epoch     1000/    5000 loss 1.771e-12 loss_mse 8.122e-13 loss_eta 8.566e-13 LossTest 1.484e-12 ( 1.484e-06 ) weight 1.420e-02
+Epoch     1500/    5000 loss 1.023e-12 loss_mse 4.955e-13 loss_eta 4.701e-13 LossTest 1.424e-12 ( 1.424e-06 ) weight 7.387e-04
+Epoch     2000/    5000 loss 9.535e-13 loss_mse 6.236e-13 loss_eta 3.214e-13 LossTest 1.423e-12 ( 1.423e-06 ) weight 7.211e-05
+Epoch     2500/    5000 loss 6.718e-15 loss_mse 4.606e-17 loss_eta 6.563e-15 LossTest 3.020e-14 ( 3.020e-08 ) weight 1.781e-05
+Epoch     3000/    5000 loss 8.198e-15 loss_mse 5.052e-16 loss_eta 7.582e-15 LossTest 1.109e-14 ( 1.109e-08 ) weight 1.090e-05
+Epoch     3500/    5000 loss 8.682e-15 loss_mse 7.707e-16 loss_eta 7.729e-15 LossTest 1.149e-14 ( 1.149e-08 ) weight 1.047e-05
+Epoch     4000/    5000 loss 7.519e-15 loss_mse 4.493e-16 loss_eta 6.941e-15 LossTest 1.221e-14 ( 1.221e-08 ) weight 1.041e-05
+Epoch     4500/    5000 loss 9.043e-15 loss_mse 1.606e-15 loss_eta 7.342e-15 LossTest 1.036e-14 ( 1.036e-08 ) weight 1.040e-05
+Epoch     5000/    5000 loss 7.471e-15 loss_mse 5.103e-16 loss_eta 6.798e-15 LossTest 1.095e-14 ( 1.095e-08 ) weight 1.035e-05
+w/ weights @ 4830.0 tloss 1.3293672829206571e-14
+lowest losssum 2430.0 losssum 5.911473749311419e-15 tloss 1.1690991286172901e-14
+lowest valid  3850.0 tloss 1.3050429181760137e-14
+lowest eta   2430.0 tloss 1.1690991286172901e-14
+lowest total w/o lam_der 2630.0 tloss 3.6502751044054094e-14
+idx1000 100
+test vs lsum 0.9167467415552847
+test vs mse  0.9354051595813447
+test vs Eta  0.8538500204512911
+test vs vald 0.7458398659108052
+mse vs  eta  0.74740496974708
+Best:  4700 bestloss 6.737e-15
+test:
+x    109.75  loss 1.222e-14 ( 1.222e-08 )
+---------------------------------
+x train [17.75, 18.0, 18.25, 18.5, 18.75, 19.0, 19.25, 19.5, 19.75, 20.0] test [92.75]
+x valid [16.5, 16.75, 17.0, 17.25, 17.5]
+device: cuda nuc Ca40 emax 10 inttype emn5002n3n
+pid 799389 dim input: 1 output 18345624  # train  10 batchsize 10  # test  1
+Normalize True  y_mean/std    9.0973e-09   1.0000e-03 ymax/ymin   6.9684e-02  -1.1962e-01
+skip connection True Optimize w/ derivative  True
+optimizer: AdamW learning rate: 0.003 weight_decay 0.1 lam_der 100.0 lam_der_0 0.0
+model PINN(
+  (fc_inp): Linear(in_features=1, out_features=48, bias=True)
+  (act_inp): Tanh()
+  (hl1): Linear(in_features=48, out_features=48, bias=True)
+  (act1): Softplus(beta=1, threshold=20)
+  (hl_edge): Linear(in_features=48, out_features=16, bias=True)
+  (act_edge): Softplus(beta=1, threshold=20)
+  (fc_out): Linear(in_features=16, out_features=18345624, bias=False)
+)
+---------------------------------
+Epoch        0/    5000 loss 5.981e-07 loss_mse 5.922e-07 loss_eta 1.353e-10 LossTest 5.548e-09 ( 5.548e-03 ) weight 5.856e+00
+Epoch      500/    5000 loss 3.344e-11 loss_mse 2.603e-12 loss_eta 3.034e-11 LossTest 2.058e-12 ( 2.058e-06 ) weight 2.855e-01
+Epoch     1000/    5000 loss 2.865e-12 loss_mse 1.742e-12 loss_eta 1.064e-12 LossTest 1.772e-12 ( 1.772e-06 ) weight 1.421e-02
+Epoch     1500/    5000 loss 1.610e-12 loss_mse 8.747e-13 loss_eta 7.040e-13 LossTest 1.742e-12 ( 1.742e-06 ) weight 7.486e-04
+Epoch     2000/    5000 loss 8.294e-13 loss_mse 5.936e-13 loss_eta 2.044e-13 LossTest 1.742e-12 ( 1.742e-06 ) weight 7.792e-05
+Epoch     2500/    5000 loss 1.936e-14 loss_mse 5.252e-15 loss_eta 1.310e-14 LossTest 1.749e-13 ( 1.749e-07 ) weight 2.173e-05
+Epoch     3000/    5000 loss 1.972e-14 loss_mse 6.749e-15 loss_eta 1.213e-14 LossTest 2.563e-14 ( 2.563e-08 ) weight 1.678e-05
+Epoch     3500/    5000 loss 1.416e-14 loss_mse 3.366e-15 loss_eta 9.587e-15 LossTest 1.432e-14 ( 1.432e-08 ) weight 1.691e-05
+Epoch     4000/    5000 loss 2.680e-14 loss_mse 1.457e-14 loss_eta 1.010e-14 LossTest 1.846e-14 ( 1.846e-08 ) weight 1.666e-05
+Epoch     4500/    5000 loss 1.780e-14 loss_mse 8.225e-15 loss_eta 8.863e-15 LossTest 1.521e-14 ( 1.521e-08 ) weight 1.658e-05
+Epoch     5000/    5000 loss 1.280e-14 loss_mse 4.677e-15 loss_eta 7.260e-15 LossTest 1.370e-14 ( 1.370e-08 ) weight 1.646e-05
+w/ weights @ 4890.0 tloss 1.5316112822461035e-14
+lowest losssum 2310.0 losssum 9.592904436084293e-15 tloss 6.081791070755571e-14
+lowest valid  4490.0 tloss 1.4822719940355e-14
+lowest eta   4290.0 tloss 1.7308986244302104e-14
+lowest total w/o lam_der 2300.0 tloss 3.7888582937739556e-14
+idx1000 100
+test vs lsum 0.9037623981176467
+test vs mse  0.9312728178916673
+test vs Eta  0.8169408061018671
+test vs vald 0.7084177251506991
+mse vs  eta  0.5004697652732476
+Best:  4991 bestloss 8.417e-15
+test:
+x     92.75  loss 1.767e-14 ( 1.767e-08 )
