@@ -42,6 +42,11 @@ using Pkg
 Pkg.add("Glob")
 Pkg.add("NuclearToolkit")
 ```
+before running Julia scripts.
+```bash
+julia -t 12 sample__script_NuclearToolkit.jl
+```
+
 
 ### Note on carrying out IMSRG flow from files
 
