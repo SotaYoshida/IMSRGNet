@@ -29,14 +29,19 @@ See [Discussions](https://discuss.pytorch.org/t/reproducibility-over-different-m
 - Python: v3.8.10
 - torch: v2.0.0
 - Julia: v 1.8.5 
-    - NuclearToolkit.jl: IMSRG-Net-v0 branch (=v0.3.3)
+    - NuclearToolkit.jl: IMSRG-Net-v0 branch (=v0.3.4)
 
 ## To run NuclearToolkit.jl
 
 * `sample_script_NuclearToolkit.jl`: sample script to run NuclearToolkit.jl to evaluate IMSRG evolved operators from files. See the section "Note on carrying out IMSRG from files" below for more details. This can be used to generate chiral potentials too.
 * `optional_parameters.jl`: file to specify some parameters for NuclearToolkit.jl. See the [document](https://sotayoshida.github.io/NuclearToolkit.jl/stable/parameters/) of NuclearToolkit.jl for more details.
 
-
+If you are new to Julia language, install `Glob` and `NuclearToolkit` through the Julia's package manager:
+```julia
+using Pkg
+Pkg.add("Glob")
+Pkg.add("NuclearToolkit")
+```
 
 ### Note on carrying out IMSRG flow from files
 
