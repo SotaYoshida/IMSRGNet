@@ -59,4 +59,4 @@ See the sample script `sample_script_NuclearToolkit.jl` in this repository for m
 I would be so grateful if you would create your own models using this repository and the NuclearToolkit.jl 😉
 
 The IMSRG-Net may in future be integrated into my Julia package [NuclearToolkit.jl](https://github.com/SotaYoshida/NuclearToolkit.jl).  
-Please consider to cite the paper for [IMSRG-Net(arXiv for now)](https://arxiv.org/abs/2306.08878) and [NuclearToolkit.jl](https://joss.theoj.org/papers/10.21105/joss.04694) (instead of this repository!). Thank you.
+Please consider to cite the paper for [IMSRG-Net](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.044303) and [NuclearToolkit.jl](https://joss.theoj.org/papers/10.21105/joss.04694) (instead of this repository!). Thank you.
