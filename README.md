@@ -1,5 +1,5 @@
 # IMSRGNet
-Code and data of IMSRG-Net: [PRC 108, 044303(2023)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.044303)[arXiv:2306.08878](https://arxiv.org/abs/2306.08878)
+Code and data of IMSRG-Net: [PRC 108, 044303(2023)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.044303) or [arXiv:2306.08878](https://arxiv.org/abs/2306.08878)
 
 ## To try IMSRG-Net
 
